@@ -1,13 +1,13 @@
 const CONFIG = {
     'api_url': '', // 废弃
     'ga': 'G-XXXXXX',
-    'whiteboard_id': '12e511518f5539c9ee5bc3c02fecab6d4f78a37eb8e13a2cfec484026b0d3c55',
-    'title': '数字花园🌱', // 站点标题
+    'whiteboard_id': 'd63aeb7e4704beae2c3f8f343b7fff491d76d41ee3199c78d4c4115b70c5f83b',
+    'title': '羽空的卡片盒', // 站点标题
     'pages': {
-        'Articles': '2e0bbcb8-fdf7-4cdb-8ee2-9f0651b71550',
-        'Projects': '2e0bbcb8-fdf7-4cdb-8ee2-9f0651b71550',
+        'Articles': '75b7d7e0-faf3-44f9-96ec-518a0001ccd7',
+        'Projects': 'ca82336a-6341-465d-a303-869b760a43b2',
         'Activity': 'activity', // 花园活跃状态页面
-        'About': '2e0bbcb8-fdf7-4cdb-8ee2-9f0651b71550'
+        'About': 'd47a1427-3c90-4ce2-9bf3-b7fab60cb05e'
     }
 }
 
