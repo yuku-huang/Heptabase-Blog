@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation, useParams, useNavigate } from 'react-router-dom';
-import WidgetBot, { API } from '@widgetbot/react-embed'
+import WidgetBot from '@widgetbot/react-embed'
 
 import ReactGA from 'react-ga';
 import CONFIG from '../config';
@@ -14,7 +14,7 @@ import '../style.css'
 import 'github-markdown-css'
 import 'antd/dist/reset.css';
 
-import { getHeptabaseData, getClearCard, getClearImag, heptaToMD } from '../constantFunction'
+import { getHeptabaseData, getClearCard, heptaToMD } from '../constantFunction'
 
 import useHash from "../hooks/useHash";
 
