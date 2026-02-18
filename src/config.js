@@ -8,7 +8,9 @@ const CONFIG = {
         '使用方法': 'ca82336a-6341-465d-a303-869b760a43b2',
         //'Activity': '', // 花园活跃状态页面
         'About': 'd47a1427-3c90-4ce2-9bf3-b7fab60cb05e'
-    }
+    },
+    'server': '',
+    'channel': ''
 }
 
 export default CONFIG

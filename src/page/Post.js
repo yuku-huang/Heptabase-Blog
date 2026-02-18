@@ -1,20 +1,20 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useLocation, useParams, useNavigate } from 'react-router-dom';
+import WidgetBot, { API } from '@widgetbot/react-embed'
 
+import ReactGA from 'react-ga';
 import CONFIG from '../config';
+
 
 import Container from '../components/Container'
 import Nav from '../components/Nav';
-import Footer from '../components/Footer'
 import Loading from '../components/Loading'
-import { NextUIProvider } from "@nextui-org/system";
 
-import '../index.css'
+import '../style.css'
 import 'github-markdown-css'
 import 'antd/dist/reset.css';
 
 import { getHeptabaseData, getClearCard, getClearImag, heptaToMD } from '../constantFunction'
-import { id } from 'date-fns/locale';
 
 import useHash from "../hooks/useHash";
 
@@ -31,10 +31,15 @@ let minWidth = 600                                              // 以此宽度�
 let HEPTABASE_DATA                                              // hepta 数据
 let HOME_DATA                                                   // 首页数据
 
+if (CONFIG.ga) {
+    ReactGA.initialize(CONFIG.ga);
+}
+
 // 文章页面
 function Post(props) {
     const [cardList, setCardList] = useState([]);
     const [activeNote, setActiveNote] = useState('null');
+    const [showChatWindow, setShowChatWindow] = useState(false);
 
     let { param1 } = useParams();
     let location = useLocation();
@@ -50,21 +55,22 @@ function Post(props) {
     // }, [param1]);
 
     useEffect(() => {
-        // 在此，你可以通过创建一个 URLSearchParams 对象来获取查询参数
-        // 渲染 URL、数据
+
+        console.log('location.search');
+
+        // 根据 URL 显示卡片
         if (HOME_DATA) {
             herfToData()
         }
-
-        // handleHashChange(window.location.href, props['card'])
+        if (CONFIG.ga && location.pathname !== '/') {
+            ReactGA.pageview(location.pathname + location.search);
+        }
 
         // 在此可以处理查询参数 myQueryParam 的变化
     }, [location.search]);
 
 
     useEffect(() => {
-        console.log('Post useEffect');
-
         // 复制到剪切板实例化
         const copy = new Clipboard('.copy-btn');
         copy.on('success', e => {
@@ -86,8 +92,8 @@ function Post(props) {
 
             // 将数据保存到全局变量中
             HEPTABASE_DATA = heptabase_blog_data
-            HOME_DATA = res['pages']['about']
-
+            // 默认获取名为 about 的卡片作为首页，若无则获取配置中首个卡片作为首页
+            HOME_DATA = res['pages']['about'] || res['pages']['firstPage']
             // 渲染 URL、数据
             herfToData()
 
@@ -98,6 +104,11 @@ function Post(props) {
 
     }, [])
 
+    const handleShowChatWindow = () => {
+
+        setShowChatWindow(!showChatWindow)
+
+    }
 
     // 根据 card id 获取 card content
     const findContent = (id, heptabase_blog_data) => {
@@ -302,6 +313,23 @@ function Post(props) {
         let old_url_1 = old_url['url_search_list'].join('-')
         let new_url_1 = new_url['url_search_list'].join('-')
 
+        // 移除所有小标题
+        const url_search_list = new_url.url_search_list
+        if (url_search_list.length < 3) {
+            // 移除小标题
+            const noteTitles = document.querySelectorAll('.note_title');
+            noteTitles.forEach(function (title) {
+                title.remove();
+            });
+            // 选取所有同时具有 ".container" 类和 "mini" 类的元素
+            const containersWithMini = document.querySelectorAll('.container.mini');
+            // 遍历这些元素并移除 "mini" 类
+            containersWithMini.forEach(function (container) {
+                container.classList.remove('mini');
+            });
+
+        }
+
         // 定位到焦点卡片
         if (new_url['active_str'].indexOf(cardId) > -1) {
 
@@ -464,7 +492,8 @@ function Post(props) {
             // 判断卡片的位置，当遮挡前 1 个卡片时，前 1 个卡片显示垂直标题
             let left_mark = notes[j].getBoundingClientRect().x <= j * 40
             // 判断是否要显示右侧标题
-            let right_mark = notes[j].getBoundingClientRect().x + 1 >= window.innerWidth - (notes.length - j) * 40
+            const chatWindowWidth = showChatWindow ? 480 : 0
+            let right_mark = notes[j].getBoundingClientRect().x + 1 >= window.innerWidth - chatWindowWidth - (notes.length - j) * 40
 
             // 左侧小标题
             if (right_mark !== true) {
@@ -548,7 +577,8 @@ function Post(props) {
                         note_title.style.left = (j - 1) * 40 + 'px'
                     } else {
                         // 右侧小标题
-                        note_title.style.right = (notes.length - j) * 40 - 40 + 'px'
+                        const chatWindowWidth = showChatWindow ? 460 : 0
+                        note_title.style.right = (notes.length - j) * 40 - 40 + chatWindowWidth + 'px'
                         note_title.classList.add('overlay')
                     }
 
@@ -694,7 +724,9 @@ function Post(props) {
     if (HEPTABASE_DATA === null || cardList.length === 0) {
         return (<div>
             {/* <Nav /> */}
-            <div className='notes'>
+            <div className='notes' style={{
+                padding: '1rem'
+            }}>
                 <Loading />
             </div>
             {/* <Footer /> */}
@@ -760,16 +792,36 @@ function Post(props) {
 
             // <NextUIProvider>
             <div className='notes_box'>
-                <Nav />
+                <Nav handleShowChatWindow={handleShowChatWindow} discord={windowWidth > minWidth} />
 
 
+                <div className='flex flex-row' style={{
+                    // overflowX: 'scroll',
+                    overflowY: 'hidden',
+                    flex: '1'
+                }}>
 
-                <div onScroll={setCardMiniTitleAndStyle} className='notes'>
+                    <div onScroll={setCardMiniTitleAndStyle} className='notes' style={{
+                        marginRight: showChatWindow && '460px',
+                        // borderRight: showChatWindow && '1px solid #d0d7de'
+                    }}>
 
-                    {card_list_dom}
+                        {card_list_dom}
+
+                    </div>
+                    {showChatWindow && <WidgetBot
+                        server={CONFIG.server}
+                        channel={CONFIG.channel}
+                        style={{
+                            position: 'absolute',
+                            right: '0',
+                            margin: '10px',
+                            width: '440px',
+                            height: '91vh'
+                        }}
+                    />}
 
                 </div>
-                {/* <Footer /> */}
 
             </div>
             // </NextUIProvider>
