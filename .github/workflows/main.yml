@@ -17,32 +17,15 @@ jobs:
 
       - name: Fetch JSON data
         run: |
-          WHITEBOARD_URL=$(grep -oP "'whiteboard_url':\s*'\K[^']+" src/config.js | head -n1)
           WHITEBOARD_ID=$(grep -oP "'whiteboard_id':\s*'\K[^']+" src/config.js | head -n1)
-
-          SOURCE="${WHITEBOARD_URL:-$WHITEBOARD_ID}"
-          SHARED_ID=""
-
-          if [[ "${SOURCE}" == *"://"* ]]; then
-            SHARED_ID=$(printf '%s' "${SOURCE}" | grep -oP '(?<=whiteboard_id=)[^&#]+' | head -n1)
-            if [[ -z "${SHARED_ID}" ]]; then
-              SHARED_ID=$(printf '%s' "${SOURCE}" | grep -oP '(?<=shared-id=)[^&#]+' | head -n1)
-            fi
-            if [[ -z "${SHARED_ID}" ]]; then
-              SHARED_ID=$(printf '%s' "${SOURCE}" | grep -oP '(?<=/whiteboard/)[^/?#]+' | head -n1)
-            fi
-          else
-            SHARED_ID="${SOURCE}"
-          fi
-
-          if [[ -z "${SHARED_ID}" ]]; then
-            echo "Cannot resolve shared id from config.js"
+          if [[ -z "${WHITEBOARD_ID}" ]]; then
+            echo "Cannot resolve whiteboard_id from config.js"
             exit 1
           fi
 
-          echo "Using shared-id: ${SHARED_ID}"
+          echo "Using whiteboard_id: ${WHITEBOARD_ID}"
           URLS=(
-            "https://api.dabing.one/?shared-id=${SHARED_ID}"
+            "https://api.dabing.one?whiteboard_id=${WHITEBOARD_ID}"
           )
 
           SUCCESS=0
