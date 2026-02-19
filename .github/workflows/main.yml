@@ -19,8 +19,32 @@ jobs:
         run: |
           WHITEBOARD_ID=$(grep -oP "'whiteboard_id':\s*'\K[^']+" src/config.js | head -n1)
           echo "Using whiteboard_id: ${WHITEBOARD_ID}"
-          curl -fL "https://api.blog.kii.la/?shared-id=${WHITEBOARD_ID}" -o /tmp/data.json
-          jq -e '.code == 0 and (.data.cards | type == "array")' /tmp/data.json > /dev/null
+          URLS=(
+            "https://api.blog.kii.la/?shared-id=${WHITEBOARD_ID}"
+            "https://api.dabing.one?whiteboard_id=${WHITEBOARD_ID}"
+            "https://api.dabing.one/?shared-id=${WHITEBOARD_ID}"
+          )
+
+          SUCCESS=0
+          for URL in "${URLS[@]}"; do
+            echo "Trying: ${URL}"
+            if curl -fL --connect-timeout 15 --max-time 60 "${URL}" -o /tmp/data.json; then
+              if jq -e '.code == 0 and (.data.cards | type == "array")' /tmp/data.json > /dev/null; then
+                SUCCESS=1
+                break
+              else
+                echo "Response format invalid, trying next endpoint..."
+              fi
+            else
+              echo "Request failed, trying next endpoint..."
+            fi
+          done
+
+          if [ "${SUCCESS}" -ne 1 ]; then
+            echo "All endpoints failed or returned invalid data."
+            exit 1
+          fi
+
           mv /tmp/data.json src/resources/data.json
 
       - name: Save JSON data to repository
