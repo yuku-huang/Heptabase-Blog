@@ -21,22 +21,25 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r scripts/requirements-sync-images.txt
 
-      - name: Download images from Heptabase
+      - name: Download images from Heptabase API
         env:
           HEPTABASE_WHITEBOARD_ID: ${{ secrets.HEPTABASE_WHITEBOARD_ID }}
+          HEPTABASE_API_BASE: https://heptabase-api-five.vercel.app
         run: |
           if [ -z "$HEPTABASE_WHITEBOARD_ID" ]; then
             echo "Missing HEPTABASE_WHITEBOARD_ID secret."
             exit 1
           fi
+
           python scripts/download_heptabase_images.py \
             --whiteboard-id "$HEPTABASE_WHITEBOARD_ID" \
-            --output-dir heptabase-assets \
-            --manifest heptabase-images-manifest.json \
-            --rewrite-output data.with_local_images.json \
-            --local-prefix "./heptabase-assets"
+            --api-base "$HEPTABASE_API_BASE" \
+            --output-dir public/heptabase-assets \
+            --manifest scripts/manifests/heptabase-images-manifest.json \
+            --rewrite-output src/resources/data.json \
+            --local-prefix "/heptabase-assets"
 
       - name: Commit and push if changed
         run: |
@@ -47,6 +50,6 @@ jobs:
 
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "GitHub Actions"
-          git add heptabase-assets heptabase-images-manifest.json data.with_local_images.json
+          git add public/heptabase-assets scripts/manifests/heptabase-images-manifest.json src/resources/data.json
           git commit -m "chore: sync Heptabase images"
           git push
