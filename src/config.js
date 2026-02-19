@@ -1,7 +1,7 @@
 const CONFIG = {
     'api_url': '',
     'ga': 'G-XXXXXX',
-    'whiteboard_id': '1073eaff-d09e-4b1b-a27a-29250ff26aa9',
+    'whiteboard_id': 'd63aeb7e4704beae2c3f8f343b7fff491d76d41ee3199c78d4c4115b70c5f83b',
     // 'whiteboard_url': 'https://app.heptabase.com/p/whiteboard/946f23a3-75ef-48e3-8e7b-35c2376f2559',
     'title': '羽空的卡片盒',
     'pages': {
