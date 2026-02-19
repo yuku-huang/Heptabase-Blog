@@ -235,7 +235,7 @@ const getHeptabaseDataFromServer = async () => {
             const data = getDataResponse
             // 处理卡片数据
             const newData = handleHeptabaseData(data)
-            return data
+            return newData
 
 
         } else {
@@ -283,7 +283,12 @@ const getHeptabaseDataFromServer = async () => {
 const getHeptabaseData = async () => {
     console.log('getHeptabaseData');
 
-    return handleHeptabaseData(heptabaseData)
+    if (heptabaseData?.code === 0 && Array.isArray(heptabaseData?.data?.cards)) {
+        return handleHeptabaseData(heptabaseData)
+    }
+
+    console.error('Invalid local data.json format, fallback to API.')
+    return await getHeptabaseDataFromServer()
 
     // 获取本地数据
     let heptabaseDataFromLocal = JSON.parse(localStorage.getItem("heptabase_blog_data"))

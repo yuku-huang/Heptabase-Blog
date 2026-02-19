@@ -17,7 +17,11 @@ jobs:
 
       - name: Fetch JSON data
         run: |
-          curl -fL "https://api.dabing.one?whiteboard_id=946f23a3-75ef-48e3-8e7b-35c2376f2559" -o src/resources/data.json
+          WHITEBOARD_ID=$(grep -oP "'whiteboard_id':\s*'\K[^']+" src/config.js | head -n1)
+          echo "Using whiteboard_id: ${WHITEBOARD_ID}"
+          curl -fL "https://api.blog.kii.la/?shared-id=${WHITEBOARD_ID}" -o /tmp/data.json
+          jq -e '.code == 0 and (.data.cards | type == "array")' /tmp/data.json > /dev/null
+          mv /tmp/data.json src/resources/data.json
 
       - name: Save JSON data to repository
         env:
