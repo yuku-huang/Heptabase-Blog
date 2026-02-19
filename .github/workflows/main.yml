@@ -24,12 +24,12 @@ jobs:
           SHARED_ID=""
 
           if [[ "${SOURCE}" == *"://"* ]]; then
-            if [[ "${SOURCE}" =~ [\?&]whiteboard_id=([^&#]+) ]]; then
-              SHARED_ID="${BASH_REMATCH[1]}"
-            elif [[ "${SOURCE}" =~ [\?&]shared-id=([^&#]+) ]]; then
-              SHARED_ID="${BASH_REMATCH[1]}"
-            elif [[ "${SOURCE}" =~ /whiteboard/([^/?#]+) ]]; then
-              SHARED_ID="${BASH_REMATCH[1]}"
+            SHARED_ID=$(printf '%s' "${SOURCE}" | grep -oP '(?<=whiteboard_id=)[^&#]+' | head -n1)
+            if [[ -z "${SHARED_ID}" ]]; then
+              SHARED_ID=$(printf '%s' "${SOURCE}" | grep -oP '(?<=shared-id=)[^&#]+' | head -n1)
+            fi
+            if [[ -z "${SHARED_ID}" ]]; then
+              SHARED_ID=$(printf '%s' "${SOURCE}" | grep -oP '(?<=/whiteboard/)[^/?#]+' | head -n1)
             fi
           else
             SHARED_ID="${SOURCE}"
