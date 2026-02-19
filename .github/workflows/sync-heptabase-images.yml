@@ -25,16 +25,16 @@ jobs:
 
       - name: Download images from Heptabase API
         env:
-          HEPTABASE_WHITEBOARD_ID: ${{ secrets.HEPTABASE_WHITEBOARD_ID }}
           HEPTABASE_API_BASE: https://heptabase-api-five.vercel.app
         run: |
-          if [ -z "$HEPTABASE_WHITEBOARD_ID" ]; then
-            echo "Missing HEPTABASE_WHITEBOARD_ID secret."
+          WHITEBOARD_ID=$(grep -oP "'whiteboard_id':\s*'\K[^']+" src/config.js | head -n1)
+          if [[ -z "${WHITEBOARD_ID}" ]]; then
+            echo "Cannot resolve whiteboard_id from src/config.js"
             exit 1
           fi
 
           python scripts/download_heptabase_images.py \
-            --whiteboard-id "$HEPTABASE_WHITEBOARD_ID" \
+            --whiteboard-id "${WHITEBOARD_ID}" \
             --api-base "$HEPTABASE_API_BASE" \
             --output-dir public/heptabase-assets \
             --manifest scripts/manifests/heptabase-images-manifest.json \
