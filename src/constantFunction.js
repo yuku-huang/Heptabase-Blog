@@ -4,31 +4,7 @@ import heptabaseData from './resources/data.json';
 
 const { confirm } = Modal;
 
-const resolveSharedId = () => {
-    const source = CONFIG.whiteboard_url || CONFIG.whiteboard_id || '';
-
-    if (typeof source !== 'string' || source.trim() === '') {
-        return '';
-    }
-
-    if (source.includes('://')) {
-        try {
-            const u = new URL(source);
-            const queryId = u.searchParams.get('whiteboard_id') || u.searchParams.get('shared-id');
-            if (queryId) {
-                return queryId;
-            }
-            const m = u.pathname.match(/\/whiteboard\/([^/?#]+)/);
-            if (m && m[1]) {
-                return m[1];
-            }
-        } catch (e) {
-            console.error('Invalid whiteboard_url:', e);
-        }
-    }
-
-    return source;
-}
+const getWhiteboardId = () => CONFIG.whiteboard_id || '';
 
 const getCardName = (cardId) => {
 
@@ -251,7 +227,7 @@ const getHeptabaseDataFromServer = async () => {
     };
 
     try {
-        const whiteboard_id = resolveSharedId();
+        const whiteboard_id = getWhiteboardId();
         const result = await fetch("https://api.blog.kii.la/?shared-id=" + whiteboard_id, requestOptions);
         const getDataResponse = await result.json();
 
@@ -335,7 +311,7 @@ const getHeptabaseData = async () => {
                 redirect: 'follow'
             };
 
-            const whiteboard_id = resolveSharedId();
+            const whiteboard_id = getWhiteboardId();
             const result = await fetch("https://api.blog.kii.la/etag?shared-id=" + whiteboard_id, requestOptions)
             const etagFromServer = await result.json();
 
@@ -449,7 +425,7 @@ const handleHeptabaseData = (data) => {
     data.data.cards = new_cards
     data.frontGetTime = Date.parse(new Date()) / 1000
     data.pages = pages
-    data.whiteboard_id = resolveSharedId()
+    data.whiteboard_id = getWhiteboardId()
 
     // 存储数据到本地缓存
 
