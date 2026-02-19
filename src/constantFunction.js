@@ -229,7 +229,7 @@ const getHeptabaseDataFromServer = async () => {
         const result = await fetch("https://api.blog.kii.la/?shared-id=" + whiteboard_id, requestOptions);
         const getDataResponse = await result.json();
 
-        if (getDataResponse.code === 0) {
+        if ((getDataResponse.code === 0 || getDataResponse.code === 200) && Array.isArray(getDataResponse?.data?.cards)) {
             // 成功获取数据
 
             const data = getDataResponse
@@ -283,7 +283,7 @@ const getHeptabaseDataFromServer = async () => {
 const getHeptabaseData = async () => {
     console.log('getHeptabaseData');
 
-    if (heptabaseData?.code === 0 && Array.isArray(heptabaseData?.data?.cards)) {
+    if ((heptabaseData?.code === 0 || heptabaseData?.code === 200 || heptabaseData?.code === undefined) && Array.isArray(heptabaseData?.data?.cards)) {
         return handleHeptabaseData(heptabaseData)
     }
 

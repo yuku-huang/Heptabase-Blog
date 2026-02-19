@@ -29,7 +29,7 @@ jobs:
           for URL in "${URLS[@]}"; do
             echo "Trying: ${URL}"
             if curl -fL --connect-timeout 15 --max-time 60 "${URL}" -o /tmp/data.json; then
-              if jq -e '.code == 0 and (.data.cards | type == "array")' /tmp/data.json > /dev/null; then
+              if jq -e '((.code == 0) or (.code == 200) or (.code == null)) and (.data.cards | type == "array")' /tmp/data.json > /dev/null; then
                 SUCCESS=1
                 break
               else
