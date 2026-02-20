@@ -558,6 +558,10 @@ const heptaContentTomd = (content_list, parent_node, parent_card_id) => {
 
                     if (parent_node['className'] !== 'task-list-item') {
                         new_node = document.createElement('p')
+                        // 空段落（無 content）：自動加 <br> 讓空白行有高度，不需再手動塞全形空白
+                        if (!('content' in content_list[i]) || content_list[i]['content'].length === 0) {
+                            new_node.appendChild(document.createElement('br'))
+                        }
                     } else {
                         new_node = document.createElement('span')
                         new_node.setAttribute('style', 'margin-left:4px');
@@ -665,6 +669,8 @@ const heptaContentTomd = (content_list, parent_node, parent_card_id) => {
                                             new_node = document.createElement('a')
                                             new_node.classList.add('external_link')
                                             new_node.href = mark['attrs']['href']
+                                            new_node.setAttribute('target', '_blank')
+                                            new_node.setAttribute('rel', 'noopener noreferrer')
                                             new_node.innerHTML = content_list[i]['text']
                                         }
 
@@ -673,6 +679,8 @@ const heptaContentTomd = (content_list, parent_node, parent_card_id) => {
                                         new_node = document.createElement('a')
                                         new_node.classList.add('external_link')
                                         new_node.href = mark['attrs']['href']
+                                        new_node.setAttribute('target', '_blank')
+                                        new_node.setAttribute('rel', 'noopener noreferrer')
                                         new_node.innerHTML = content_list[i]['text']
                                     }
 
@@ -854,10 +862,31 @@ const heptaContentTomd = (content_list, parent_node, parent_card_id) => {
                 new_node = document.createElement('td')
                 break
 
-            case 'video':
-                new_node = document.createElement('video')
-                new_node.src = content_list[i]['attrs']['url']
+            case 'video': {
+                const videoUrl = content_list[i]['attrs']['url'] || ''
+                // 偵測 YouTube URL（youtu.be 短連結或 youtube.com）
+                const ytMatch = videoUrl.match(
+                    /(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([\w-]{11})/
+                )
+                if (ytMatch) {
+                    const videoId = ytMatch[1]
+                    new_node = document.createElement('div')
+                    new_node.classList.add('youtube_embed')
+                    new_node.innerHTML = `<iframe
+                        src="https://www.youtube.com/embed/${videoId}"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        style="width:100%; aspect-ratio:16/9; border-radius:6px;"
+                    ></iframe>`
+                } else {
+                    new_node = document.createElement('video')
+                    new_node.src = videoUrl
+                    new_node.controls = true
+                    new_node.setAttribute('style', 'width:100%; border-radius:6px;')
+                }
                 break
+            }
 
             case 'math_inline':
                 new_node = document.createElement('span')

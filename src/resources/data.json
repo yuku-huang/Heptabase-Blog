@@ -9,11 +9,11 @@
         "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
         "createdTime": "2024-02-13T05:43:05.994Z",
         "foldedHeight": -1,
-        "height": 1247.0625,
+        "height": 1180.5625,
         "id": "befba118-4b5a-405a-8d94-5f9007e86762",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T10:58:16.840Z",
+        "lastEditedTime": "2026-02-20T14:17:00.898Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
@@ -67,7 +67,7 @@
         "id": "8e54c548-06f4-4194-b87c-6239733959ff",
         "isAutoHeight": false,
         "isFolded": true,
-        "lastEditedTime": "2026-02-20T09:19:29.450Z",
+        "lastEditedTime": "2026-02-20T12:38:13.737Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
@@ -85,7 +85,7 @@
         "id": "e7b6dc9f-d661-4242-9ab3-a8e288d9bd85",
         "isAutoHeight": true,
         "isFolded": true,
-        "lastEditedTime": "2026-02-20T09:19:26.682Z",
+        "lastEditedTime": "2026-02-20T14:17:18.960Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
@@ -99,11 +99,11 @@
         "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
         "createdTime": "2024-02-14T03:03:54.686Z",
         "foldedHeight": -1,
-        "height": 882.65625,
+        "height": 1012.875,
         "id": "f0c2eba0-ed8d-45b8-aad6-48ebd85c1c60",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T12:32:12.318Z",
+        "lastEditedTime": "2026-02-20T13:17:45.320Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
@@ -157,7 +157,7 @@
         "id": "14e9171b-f86a-415c-97c7-df97f968abec",
         "isAutoHeight": false,
         "isFolded": true,
-        "lastEditedTime": "2026-02-20T09:19:29.802Z",
+        "lastEditedTime": "2026-02-20T12:38:13.855Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
@@ -193,7 +193,7 @@
         "id": "11d4eec4-12b6-48ff-a574-929014c4a515",
         "isAutoHeight": false,
         "isFolded": true,
-        "lastEditedTime": "2026-02-20T09:19:30.629Z",
+        "lastEditedTime": "2026-02-20T12:38:13.912Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
@@ -283,7 +283,7 @@
         "id": "9de22788-ee3d-47c0-918c-5024ea4dd452",
         "isAutoHeight": false,
         "isFolded": true,
-        "lastEditedTime": "2026-02-20T09:19:30.007Z",
+        "lastEditedTime": "2026-02-20T12:38:14.108Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
@@ -301,7 +301,7 @@
         "id": "1c67568e-edff-4f39-9589-cf18f175c742",
         "isAutoHeight": false,
         "isFolded": true,
-        "lastEditedTime": "2026-02-20T09:19:30.253Z",
+        "lastEditedTime": "2026-02-20T12:38:14.171Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
@@ -319,7 +319,7 @@
         "id": "918d44d5-d3e6-462a-a7f2-b7dab55291a8",
         "isAutoHeight": true,
         "isFolded": true,
-        "lastEditedTime": "2026-02-20T09:19:26.799Z",
+        "lastEditedTime": "2026-02-20T12:38:14.252Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
@@ -337,7 +337,7 @@
         "id": "be2ef0c9-fdb6-4b0c-9fa8-40aa0d2fb390",
         "isAutoHeight": false,
         "isFolded": true,
-        "lastEditedTime": "2026-02-20T09:19:30.360Z",
+        "lastEditedTime": "2026-02-20T12:38:14.313Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
@@ -355,7 +355,7 @@
         "id": "fb190d52-464f-421c-a85b-f1b8c9391a6a",
         "isAutoHeight": true,
         "isFolded": true,
-        "lastEditedTime": "2026-02-20T09:19:30.437Z",
+        "lastEditedTime": "2026-02-20T12:38:14.358Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
@@ -423,11 +423,11 @@
         "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
         "createdTime": "2026-02-19T09:15:04.694Z",
         "foldedHeight": -1,
-        "height": 1583,
+        "height": 1549.5,
         "id": "3605a9a4-bce7-437f-9361-b791e79a2f4e",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T10:04:27.378Z",
+        "lastEditedTime": "2026-02-20T14:22:37.723Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
@@ -445,13 +445,13 @@
         "id": "1e696eac-8ef7-4f29-97bc-bb715b33265c",
         "isAutoHeight": false,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:28:51.485Z",
+        "lastEditedTime": "2026-02-20T14:22:05.239Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 7013.819546220663,
-        "y": 527.6404378768674
+        "x": 9361.597357906863,
+        "y": 453.692710249466
       },
       {
         "cardId": "600afd60-b852-4425-bc0b-68c171c34476",
@@ -463,13 +463,13 @@
         "id": "a7fdfb70-cb73-4b97-a9fb-52f66e60db3a",
         "isAutoHeight": false,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:28:51.518Z",
+        "lastEditedTime": "2026-02-20T14:18:38.356Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 8855.448807911936,
-        "y": 569.2718489579261
+        "x": 11873.78224297053,
+        "y": 352.6052840165198
       },
       {
         "cardId": "e91f1954-e303-4fe7-bec8-c378afa77174",
@@ -481,13 +481,13 @@
         "id": "3094041c-a4c9-42ce-b0cc-550a07941b5d",
         "isAutoHeight": false,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:28:51.545Z",
+        "lastEditedTime": "2026-02-20T14:22:05.294Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 7712.790138009726,
-        "y": 762.5938365002025
+        "x": 10060.567949695926,
+        "y": 688.646108872801
       },
       {
         "cardId": "75bf2bb0-1025-4b40-908e-7ce68dfa1283",
@@ -499,31 +499,31 @@
         "id": "db2ca203-4fb4-4609-88e2-347cac95748c",
         "isAutoHeight": false,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:28:51.569Z",
+        "lastEditedTime": "2026-02-20T14:22:05.324Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 7035.823471292411,
-        "y": 961.1060620457266
+        "x": 9383.60128297861,
+        "y": 887.1583344183252
       },
       {
         "cardId": "62439d18-dfe3-4ab6-ae26-4d929b5787c0",
-        "color": "white",
+        "color": "orange",
         "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
         "createdTime": "2026-02-19T15:03:11.945Z",
         "foldedHeight": -1,
-        "height": 148.765625,
+        "height": 393.734375,
         "id": "01b068e8-e7a8-4c99-84d5-e83c502ebc0d",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:28:51.594Z",
+        "lastEditedTime": "2026-02-20T14:19:09.460Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 8318.492831710508,
-        "y": 569.2718489579261
+        "x": 11336.826266769101,
+        "y": 352.6052840165198
       },
       {
         "cardId": "314917c3-8398-4d5d-82d4-7ebc750a82ec",
@@ -535,13 +535,13 @@
         "id": "cfccdd05-de7f-432b-8c0d-3a54a34af43a",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:28:51.617Z",
+        "lastEditedTime": "2026-02-20T14:18:38.411Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 9375.448807911936,
-        "y": 569.2718489579261
+        "x": 12393.78224297053,
+        "y": 352.6052840165198
       },
       {
         "cardId": "64dfa5a8-dc77-42f1-b0bd-6c36faf85ff8",
@@ -553,13 +553,13 @@
         "id": "4c9c9498-dbb2-4152-b68e-6b6a9ac335cf",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:28:51.641Z",
+        "lastEditedTime": "2026-02-20T14:18:38.443Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 8855.448807911936,
-        "y": 1077.0902021243533
+        "x": 11873.78224297053,
+        "y": 860.423637182947
       },
       {
         "cardId": "52a1f0d5-cebb-4508-8ff4-95790a33e7d4",
@@ -571,13 +571,13 @@
         "id": "0ff9baca-e554-4253-88d2-a6759979895e",
         "isAutoHeight": false,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:28:51.666Z",
+        "lastEditedTime": "2026-02-20T14:18:38.485Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 9375.448807911936,
-        "y": 920.3587837719847
+        "x": 12393.78224297053,
+        "y": 703.6922188305784
       },
       {
         "cardId": "e0add5ba-ab41-4c17-9a1b-52bcfb0f7bf1",
@@ -589,13 +589,13 @@
         "id": "5d56041a-cdc5-4559-b434-9697707a05b2",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:28:51.694Z",
+        "lastEditedTime": "2026-02-20T14:18:38.520Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 9895.448807911936,
-        "y": 569.2718489579261
+        "x": 12913.78224297053,
+        "y": 352.6052840165198
       },
       {
         "cardId": "1c6068b9-5f51-4b98-b637-dc908fd7c89d",
@@ -607,13 +607,13 @@
         "id": "b745e864-ef28-4d3e-bfe7-70fce1bc46f6",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:28:51.719Z",
+        "lastEditedTime": "2026-02-20T14:18:38.566Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 9895.448807911936,
-        "y": 920.3587837719847
+        "x": 12913.78224297053,
+        "y": 703.6922188305784
       },
       {
         "cardId": "448f6f53-3a98-48fd-9b69-a5c9f6d6357e",
@@ -769,13 +769,13 @@
         "id": "86979e49-b7d2-4b18-82c6-46bf99322068",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:28:51.746Z",
+        "lastEditedTime": "2026-02-20T14:18:38.619Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 10415.448807911936,
-        "y": 570.6230948916306
+        "x": 13433.78224297053,
+        "y": 353.9565299502243
       },
       {
         "cardId": "8ae26066-55f8-4a0b-84f4-fadfa59100d4",
@@ -787,13 +787,13 @@
         "id": "4580e32c-daf1-4975-bad6-4cb5c79aecb4",
         "isAutoHeight": true,
         "isFolded": true,
-        "lastEditedTime": "2026-02-20T09:28:51.774Z",
+        "lastEditedTime": "2026-02-20T14:20:24.128Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 7677.302500682873,
-        "y": 1873.236592289355
+        "x": 11970.080108918552,
+        "y": -1210.6522118284865
       },
       {
         "cardId": "c7384c40-628d-4372-905e-4e87aaa358ec",
@@ -805,13 +805,13 @@
         "id": "a579d312-abc8-430c-be9b-01cac4ed6173",
         "isAutoHeight": true,
         "isFolded": true,
-        "lastEditedTime": "2026-02-20T09:28:51.804Z",
+        "lastEditedTime": "2026-02-20T14:20:24.189Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 7677.302500682873,
-        "y": 1935.236592289355
+        "x": 11970.080108918552,
+        "y": -1148.6522118284865
       },
       {
         "cardId": "dc9fb8cc-9c59-4960-ac99-a66265d49601",
@@ -841,13 +841,13 @@
         "id": "4e0626e8-2c59-4a24-93b3-fb626cb7b868",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:29:18.957Z",
+        "lastEditedTime": "2026-02-20T14:20:30.518Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 9227.448807911936,
-        "y": -549.3866974253419
+        "x": 10550.782548146313,
+        "y": -586.0532623667482
       },
       {
         "cardId": "8b2e5585-56ae-4249-acad-3d4616e1fae3",
@@ -859,13 +859,13 @@
         "id": "ab8355f5-8e7b-4057-ba5c-a846476ec671",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:29:00.470Z",
+        "lastEditedTime": "2026-02-20T14:20:30.549Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 8055.021161891478,
-        "y": -276.64286866881446
+        "x": 9378.354902125855,
+        "y": -313.3094336102207
       },
       {
         "cardId": "3890c0d0-dba6-49c0-9468-f72fb9305b53",
@@ -877,13 +877,13 @@
         "id": "2cb11787-c58f-49e3-b444-28d2fb0947f7",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:29:00.515Z",
+        "lastEditedTime": "2026-02-20T14:20:30.579Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 8635.79408003988,
-        "y": -276.64286866881446
+        "x": 9959.127820274256,
+        "y": -313.3094336102207
       },
       {
         "cardId": "9c77ce2c-d563-40dc-a683-9e0a47f948e2",
@@ -913,13 +913,13 @@
         "id": "847ba482-9c95-4c69-8ace-61c4fb88daf2",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:29:00.549Z",
+        "lastEditedTime": "2026-02-20T14:20:30.610Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 8326.646886464934,
-        "y": -623.6428686688145
+        "x": 9649.980626699311,
+        "y": -660.3094336102207
       },
       {
         "cardId": "e819417e-75be-4322-9e6f-7d11fe2fba2a",
@@ -931,13 +931,13 @@
         "id": "baf9805f-f5f0-4f28-8946-268e81061862",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:28:51.890Z",
+        "lastEditedTime": "2026-02-20T14:20:24.270Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 7082.911306296279,
-        "y": 2218.130276340551
+        "x": 11375.688914531958,
+        "y": -865.7585277772905
       },
       {
         "cardId": "14ccf380-c4e9-4f45-bffc-01919badb673",
@@ -985,13 +985,13 @@
         "id": "71aa6e5b-d0dc-4e39-a254-70d87887185c",
         "isAutoHeight": true,
         "isFolded": false,
-        "lastEditedTime": "2026-02-20T09:28:51.914Z",
+        "lastEditedTime": "2026-02-20T14:20:24.329Z",
         "sourceSpaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
         "width": 520,
-        "x": 7677.302500682873,
-        "y": 2038.8298456907587
+        "x": 11970.080108918552,
+        "y": -1045.0589584270829
       },
       {
         "cardId": "1591176c-4fa2-4a26-b131-debd7e6936ea",
@@ -1032,14 +1032,14 @@
     ],
     "cards": [
       {
-        "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"id\":\"bf2f9407-86f4-4727-a06e-a24fa73ea8c3\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"About\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"88b949cb-539b-441f-9577-7d1c1a8f0ce4\"},\"content\":[{\"type\":\"text\",\"text\":\"你好👋🏻，我是黃秉樺 ( 你可以叫我餅乾或是羽空 )。目前還是理工科的學生，這個網頁是放一些我整理過的一些想法，還有紀錄我生活/生存的過程。\"},{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://app.heptabase.com/1073eaff-d09e-4b1b-a27a-29250ff26aa9/card/d47a1427-3c90-4ce2-9bf3-b7fab60cb05e#f4d2d4f7-9cef-43a0-a5e7-7b09094cd2d4\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"測試\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"28dc02d7-ef45-4a64-a2ac-009ea8af86d3\"},\"content\":[{\"type\":\"text\",\"text\":\"我會在這裡分享我所感興趣並且學習到的內容，希望對你有所幫助。\"}]},{\"type\":\"horizontal_rule\",\"attrs\":{\"id\":\"8a782d2d-82d0-419b-8fb1-84920803ecec\"}},{\"type\":\"heading\",\"attrs\":{\"id\":\"f93813e1-1261-4808-aea0-ce37e70255f9\",\"level\":3},\"content\":[{\"type\":\"text\",\"text\":\"關於本站\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"bbc152d1-b1b7-4e0e-9300-3c1c269dd8a8\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"72d6d4a6-fcea-407b-bd2b-3b15c170ea71\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"dc4564f8-d8e1-4f96-a6d9-cdac46a35638\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"d0d5cd81-6aa9-4cc0-b05b-163b9ed89e00\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"2dc1ce4c-42fc-4fb3-9e84-a4f61868c1ea\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://app.heptabase.com/1073eaff-d09e-4b1b-a27a-29250ff26aa9/card/ca82336a-6341-465d-a303-869b760a43b2\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"本站使用方法\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"0dc4ab66-181a-47c9-a68d-0d5935eb2c98\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"76d5bf26-d4e8-4a32-950d-e7e288e5f752\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://app.heptabase.com/1073eaff-d09e-4b1b-a27a-29250ff26aa9/card/75b7d7e0-faf3-44f9-96ec-518a0001ccd7\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"我的文章\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"0a6b1d9a-0732-4b05-930d-3e30b8da0693\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"032db9b4-1fbd-4da7-9250-f58490d8e940\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://app.heptabase.com/1073eaff-d09e-4b1b-a27a-29250ff26aa9/card/a2e0049e-7f6d-40e8-a94c-12948c1f52cf\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"我所關注的主題\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"d1fdd8b7-af00-4810-b1cc-4f04f858d842\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"5881dcf7-1635-4e9d-89e1-848cd29fa87a\"},\"content\":[{\"type\":\"text\",\"text\":\"後記-\"},{\"type\":\"card\",\"attrs\":{\"cardId\":\"4ec26fa6-b077-4ea5-888e-55bc0b85d54d\"}}]}]},{\"type\":\"horizontal_rule\",\"attrs\":{\"id\":\"43a59913-9234-4fa2-b832-6ac335258b13\"}},{\"type\":\"heading\",\"attrs\":{\"id\":\"aa350d31-fb34-44eb-b32d-2f268b35ec18\",\"level\":3},\"content\":[{\"type\":\"text\",\"text\":\"關於我\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"1b5681f0-8ec0-4f5a-8813-578e5fc66f14\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"b1975a52-d6ea-4118-a5b6-564dd9deeac2\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"fcc0ec32-79be-4c55-ba26-2da968e12e23\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"746637fa-5dfd-4364-85ab-47f1b2feac31\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"cc671a25-ce89-4b9b-9344-b41705aca2e5\"},\"content\":[{\"type\":\"text\",\"text\":\"我的願景\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"fc877a0f-491b-4de2-b67f-5a71a8462cab\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"c2889eb5-d236-4ae5-9765-ba995b82f354\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"d92f64c4-74cd-4c39-8782-4c70cce2b0fb\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"0057e0ac-8bfd-477c-b599-c733cf89f358\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"ee7f1678-3599-436f-8097-1e66d84d00d3\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"75bf2bb0-1025-4b40-908e-7ce68dfa1283\"}}]}]},{\"type\":\"horizontal_rule\",\"attrs\":{\"id\":\"867cf5a4-5521-4b88-b3b6-575e6b2e4ee2\"}},{\"type\":\"heading\",\"attrs\":{\"id\":\"10cf371c-1a52-4eae-b9a7-f3be817767ec\",\"level\":3},\"content\":[{\"type\":\"text\",\"text\":\"精選文章\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"9a7ccb97-4375-41a9-9981-d7e953a90c2f\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"b67ced25-a19f-46b0-b84e-8de927ae0e0c\"},\"content\":[{\"type\":\"text\",\"text\":\"卡片盒筆記法\"}]}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"ef96d7aa-c30a-475b-96c5-a6969d278a13\"}},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"f49e0b50-f015-458f-9ed1-6f3e37469f7c\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://app.heptabase.com/1073eaff-d09e-4b1b-a27a-29250ff26aa9/card/75b7d7e0-faf3-44f9-96ec-518a0001ccd7\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"看更多我的文章→\"}]},{\"type\":\"horizontal_rule\",\"attrs\":{\"id\":\"049cb618-8cfb-4254-aa4e-a8304ebae368\"}},{\"type\":\"heading\",\"attrs\":{\"id\":\"ee029831-a546-43b2-ab0e-887768a5f42f\",\"level\":3},\"content\":[{\"type\":\"text\",\"text\":\"我的聯繫方式\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"286ef02a-2ff2-4267-898e-1ae709e22f3e\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"d16c860f-add4-43f4-bc5a-d89d337e5fdd\"},\"content\":[{\"type\":\"text\",\"text\":\"Gmail : kelly58516776@gmail.com\"}]}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"0fac3f02-a5f5-4df4-9992-339add884413\"},\"content\":[{\"type\":\"text\",\"text\":\"有任何問題或想法與反饋都可以直接聯繫我，Have a nice day.\"}]},{\"type\":\"horizontal_rule\",\"attrs\":{\"id\":\"d930b996-2cb0-4fce-a109-87bfe7cacc70\"}},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"f4d2d4f7-9cef-43a0-a5e7-7b09094cd2d4\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"cbbdda35-d828-49de-86b2-a85cf39b38df\"},\"content\":[{\"type\":\"text\",\"text\":\"本站使用的是Jiang所開發的\"},{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://notes.dabing.one/post?note-id=3a433c0b-e2e1-4722-8a88-a17e9aa2b927&note-id=b81a2f54-ec5b-4de0-9e97-ab841c0e18f9&active-note-id=b81a2f54-ec5b-4de0-9e97-ab841c0e18f9\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"Heptabase管理數字花園\"},{\"type\":\"text\",\"text\":\"，如果你有興趣且同樣在使用Heptabase，可以參考文章步驟。\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"550ace74-0c36-49bf-b0bf-597f3346b516\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"855e27e5-2e1f-4975-8158-c91e482197ba\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"359f4dc8-9cd2-40d4-876a-045984d29a82\"}}]}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"bfd133ef-f5ce-429e-8ef3-6f34d1204007\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"e819417e-75be-4322-9e6f-7d11fe2fba2a\"}}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"d840a06d-3b65-49d5-b6a8-cbf589509481\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"a397a569-20e0-4dbe-9fad-a7ea0721b1f9\"}}]}]}",
+        "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"id\":\"bf2f9407-86f4-4727-a06e-a24fa73ea8c3\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"About\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"88b949cb-539b-441f-9577-7d1c1a8f0ce4\"},\"content\":[{\"type\":\"text\",\"text\":\"你好👋🏻，我是黃秉樺 ( 你可以叫我餅乾或是羽空 )。目前還是理工科的學生，這個網頁是放一些我整理過的一些想法，還有紀錄我生活/生存的過程。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"28dc02d7-ef45-4a64-a2ac-009ea8af86d3\"},\"content\":[{\"type\":\"text\",\"text\":\"我會在這裡分享我所感興趣並且學習到的內容，希望對你有所幫助。\"}]},{\"type\":\"horizontal_rule\",\"attrs\":{\"id\":\"8a782d2d-82d0-419b-8fb1-84920803ecec\"}},{\"type\":\"heading\",\"attrs\":{\"id\":\"f93813e1-1261-4808-aea0-ce37e70255f9\",\"level\":3},\"content\":[{\"type\":\"text\",\"text\":\"關於本站\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"bbc152d1-b1b7-4e0e-9300-3c1c269dd8a8\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"72d6d4a6-fcea-407b-bd2b-3b15c170ea71\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"dc4564f8-d8e1-4f96-a6d9-cdac46a35638\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"d0d5cd81-6aa9-4cc0-b05b-163b9ed89e00\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"2dc1ce4c-42fc-4fb3-9e84-a4f61868c1ea\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://app.heptabase.com/1073eaff-d09e-4b1b-a27a-29250ff26aa9/card/ca82336a-6341-465d-a303-869b760a43b2\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"本站使用方法\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"0dc4ab66-181a-47c9-a68d-0d5935eb2c98\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"76d5bf26-d4e8-4a32-950d-e7e288e5f752\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://app.heptabase.com/1073eaff-d09e-4b1b-a27a-29250ff26aa9/card/75b7d7e0-faf3-44f9-96ec-518a0001ccd7\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"我的文章\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"0a6b1d9a-0732-4b05-930d-3e30b8da0693\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"032db9b4-1fbd-4da7-9250-f58490d8e940\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://app.heptabase.com/1073eaff-d09e-4b1b-a27a-29250ff26aa9/card/a2e0049e-7f6d-40e8-a94c-12948c1f52cf\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"我所關注的主題\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"d1fdd8b7-af00-4810-b1cc-4f04f858d842\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"5881dcf7-1635-4e9d-89e1-848cd29fa87a\"},\"content\":[{\"type\":\"text\",\"text\":\"後記-\"},{\"type\":\"card\",\"attrs\":{\"cardId\":\"4ec26fa6-b077-4ea5-888e-55bc0b85d54d\"}}]}]},{\"type\":\"horizontal_rule\",\"attrs\":{\"id\":\"43a59913-9234-4fa2-b832-6ac335258b13\"}},{\"type\":\"heading\",\"attrs\":{\"id\":\"aa350d31-fb34-44eb-b32d-2f268b35ec18\",\"level\":3},\"content\":[{\"type\":\"text\",\"text\":\"關於我\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"1b5681f0-8ec0-4f5a-8813-578e5fc66f14\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"b1975a52-d6ea-4118-a5b6-564dd9deeac2\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"fcc0ec32-79be-4c55-ba26-2da968e12e23\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"746637fa-5dfd-4364-85ab-47f1b2feac31\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"cc671a25-ce89-4b9b-9344-b41705aca2e5\"},\"content\":[{\"type\":\"text\",\"text\":\"我的願景\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"fc877a0f-491b-4de2-b67f-5a71a8462cab\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"c2889eb5-d236-4ae5-9765-ba995b82f354\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"d92f64c4-74cd-4c39-8782-4c70cce2b0fb\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"0057e0ac-8bfd-477c-b599-c733cf89f358\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"ee7f1678-3599-436f-8097-1e66d84d00d3\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"75bf2bb0-1025-4b40-908e-7ce68dfa1283\"}}]}]},{\"type\":\"horizontal_rule\",\"attrs\":{\"id\":\"867cf5a4-5521-4b88-b3b6-575e6b2e4ee2\"}},{\"type\":\"heading\",\"attrs\":{\"id\":\"10cf371c-1a52-4eae-b9a7-f3be817767ec\",\"level\":3},\"content\":[{\"type\":\"text\",\"text\":\"精選文章\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"c1f14bbc-c39b-4e31-80e5-db4dc6fa60f7\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"d33756f9-1a99-4c2e-ae87-14ec31a0b4cc\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"16f0bfac-a3bc-4ab9-a7af-c16ab45db1c8\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"867a741e-223e-4d80-b365-896b0011930d\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"4c841b56-f9be-4da4-98b9-f1e5b3133491\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"a325e9c1-317f-4a26-9b4a-bc54e6e5de4b\"}}]}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"f49e0b50-f015-458f-9ed1-6f3e37469f7c\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://app.heptabase.com/1073eaff-d09e-4b1b-a27a-29250ff26aa9/card/75b7d7e0-faf3-44f9-96ec-518a0001ccd7\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"看更多我的文章→\"}]},{\"type\":\"horizontal_rule\",\"attrs\":{\"id\":\"049cb618-8cfb-4254-aa4e-a8304ebae368\"}},{\"type\":\"heading\",\"attrs\":{\"id\":\"ee029831-a546-43b2-ab0e-887768a5f42f\",\"level\":3},\"content\":[{\"type\":\"text\",\"text\":\"我的聯繫方式\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"286ef02a-2ff2-4267-898e-1ae709e22f3e\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"d16c860f-add4-43f4-bc5a-d89d337e5fdd\"},\"content\":[{\"type\":\"text\",\"text\":\"Gmail : kelly58516776@gmail.com\"}]}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"0fac3f02-a5f5-4df4-9992-339add884413\"},\"content\":[{\"type\":\"text\",\"text\":\"有任何問題或想法與反饋都可以直接聯繫我，Have a nice day.\"}]},{\"type\":\"horizontal_rule\",\"attrs\":{\"id\":\"d930b996-2cb0-4fce-a109-87bfe7cacc70\"}},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"f4d2d4f7-9cef-43a0-a5e7-7b09094cd2d4\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"cbbdda35-d828-49de-86b2-a85cf39b38df\"},\"content\":[{\"type\":\"text\",\"text\":\"本站使用的是Jiang所開發的\"},{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://notes.dabing.one/post?note-id=3a433c0b-e2e1-4722-8a88-a17e9aa2b927&note-id=b81a2f54-ec5b-4de0-9e97-ab841c0e18f9&active-note-id=b81a2f54-ec5b-4de0-9e97-ab841c0e18f9\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"Heptabase管理數字花園\"},{\"type\":\"text\",\"text\":\"，如果你有興趣且同樣在使用Heptabase，可以參考文章步驟。\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"550ace74-0c36-49bf-b0bf-597f3346b516\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"855e27e5-2e1f-4975-8158-c91e482197ba\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"359f4dc8-9cd2-40d4-876a-045984d29a82\"}}]}]}]}",
         "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
         "createdTime": "2024-02-13T05:43:05.948Z",
         "id": "d47a1427-3c90-4ce2-9bf3-b7fab60cb05e",
         "insights": [],
         "isTrashed": false,
-        "lastEditedTime": "2026-02-20T12:34:31.877Z",
-        "lastUsedTime": "2026-02-20T12:34:31.877Z",
+        "lastEditedTime": "2026-02-20T14:17:00.999Z",
+        "lastUsedTime": "2026-02-20T14:17:00.999Z",
         "propertiesConfig": [],
         "sourceCardId": null,
         "sourceCardType": null,
@@ -1112,14 +1112,14 @@
         "wasInsightGenerated": false
       },
       {
-        "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"id\":\"705b42ca-800b-4440-bd2c-6365c3ea5a65\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"VUR版本更新紀錄\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"14dc4026-74ba-4dec-b6bd-8ea7fbf9d0de\"},\"content\":[{\"type\":\"text\",\"text\":\"Version Updated Record \"},{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://heptabase-blog-tlc2.vercel.app/post?note-id=d47a1427-3c90-4ce2-9bf3-b7fab60cb05e&active-note-id=d47a1427-3c90-4ce2-9bf3-b7fab60cb05e\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"羽空的卡片盒 (\"},{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"heptabase-blog-tlc2.vercel.app\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"heptabase-blog-tlc2.vercel.app\"},{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://heptabase-blog-tlc2.vercel.app/post?note-id=d47a1427-3c90-4ce2-9bf3-b7fab60cb05e&active-note-id=d47a1427-3c90-4ce2-9bf3-b7fab60cb05e\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\")\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"89ec9bc8-6cad-4d77-a4c6-6e8d60fea757\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"85af932c-36ba-4841-884d-715c2ff6a0a3\"},\"content\":[{\"type\":\"date\",\"attrs\":{\"date\":\"2024-02-14\"}},{\"type\":\"text\",\"text\":\"　用空白格解決數字花園換行問題\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"3ea8a486-d3cb-4205-9489-774d741b3e20\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"4ed643e5-928f-4418-b648-4365a03ed9b7\"},\"content\":[{\"type\":\"date\",\"attrs\":{\"date\":\"2024-02-16\"}},{\"type\":\"text\",\"text\":\"撰寫完成\"},{\"type\":\"card\",\"attrs\":{\"cardId\":\"4ec26fa6-b077-4ea5-888e-55bc0b85d54d\"}},{\"type\":\"text\",\"text\":\"、撰寫完成\"},{\"type\":\"card\",\"attrs\":{\"cardId\":\"ca82336a-6341-465d-a303-869b760a43b2\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"b801e30f-982b-427b-912a-71d516e6c8b8\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"d41679a7-2e4c-49eb-97a7-ac004baeaca2\"},\"content\":[{\"type\":\"date\",\"attrs\":{\"date\":\"2024-02-17\"}},{\"type\":\"text\",\"text\":\"完成4項我的願景、我的原則撰寫\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"06507104-6e81-477a-b3fd-da638a34eb0d\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"1f3b0c8d-fb93-48c0-b747-cb830a408e94\"},\"content\":[{\"type\":\"text\",\"text\":\"2026.02.19 才想到要來重拾這個部落格\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"efe6b653-b015-4659-957b-8b9e096f55f4\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"a60640e6-9482-4e7f-8410-fbf9daead866\"},\"content\":[{\"type\":\"date\",\"attrs\":{\"date\":\"2026-02-20\"}},{\"type\":\"text\",\"text\":\" 完成最後開啟卡片的關閉按鈕\"}]}]},{\"type\":\"horizontal_rule\",\"attrs\":{\"id\":\"f8e57b67-3967-4c65-8fdd-3c8ef2255c9a\"}},{\"type\":\"heading\",\"attrs\":{\"id\":\"35a5082f-c76d-4636-9986-1136c9f57766\",\"level\":3},\"content\":[{\"type\":\"text\",\"text\":\"待編輯項目\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"f00cb1e2-8f01-42ed-bea2-65bc9e00f51b\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"5cf43027-5181-4188-be4d-5aaf1a464d82\"},\"content\":[{\"type\":\"text\",\"text\":\"撰寫關於學習文章\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"9720df79-07c6-4129-be58-b458187a9419\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"92efec87-6c02-41eb-bf59-480b8226d61a\"},\"content\":[{\"type\":\"text\",\"text\":\"撰寫 平台創立初衷、我的願景\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"ccbff917-5b2d-44a5-8941-96b4b15c5310\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"93547853-471b-4101-91c3-896da9e37aef\"},\"content\":[{\"type\":\"text\",\"text\":\"Heptabase專案管理與知識管理教學文章撰寫\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"95a1ae94-71b1-48e6-83e1-2eaf0b529752\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"13fc9430-f347-433f-9123-cfc6c18012be\"},\"content\":[{\"type\":\"text\",\"text\":\"將文章編上編碼，讓讀者更好查詢→文章量多再建立\"}]}]},{\"type\":\"heading\",\"attrs\":{\"id\":\"f66af714-3ec4-4b49-b372-89208ca90093\",\"level\":3},\"content\":[{\"type\":\"text\",\"text\":\"待開發功能\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"d3352037-ce0f-4e34-ab02-009bc10e0564\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"5cbfe06d-d6d4-4302-9834-4bd626803685\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"strike\"}],\"text\":\"圖片直接更新而不需要上圖床\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"56de7e67-ba9b-429c-be50-e0267e734bb0\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"f6e5bed6-5de7-4f85-9efb-c3b3313f6a9d\"},\"content\":[{\"type\":\"text\",\"text\":\"透過超連結快轉段落(或側邊欄)\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"50bf363a-46f1-49af-a6ea-8838e8f97521\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"26921fca-024f-4e69-a4b2-803ec8a7cbf1\"},\"content\":[{\"type\":\"text\",\"text\":\"看文章有音樂能聽\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"3865b90c-461e-47e4-9ade-73451fe89a91\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"885259fb-f3f0-4d08-9f69-d407a56b5760\"},\"content\":[{\"type\":\"text\",\"text\":\"頁面上要有關閉界面\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"1df5ffb8-8a6e-4bf3-b4ab-733fc9efcbc4\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"e2da854a-508d-4942-8bd3-2d228787c84c\"},\"content\":[{\"type\":\"text\",\"text\":\"搜尋功能(最基礎的)\"}]}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"d1d2afd0-d73d-40bf-9a71-eda54792bdf7\"}}]}",
+        "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"id\":\"705b42ca-800b-4440-bd2c-6365c3ea5a65\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"VUR版本更新紀錄\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"14dc4026-74ba-4dec-b6bd-8ea7fbf9d0de\"},\"content\":[{\"type\":\"text\",\"text\":\"Version Updated Record \"},{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://heptabase-blog-tlc2.vercel.app/post?note-id=d47a1427-3c90-4ce2-9bf3-b7fab60cb05e&active-note-id=d47a1427-3c90-4ce2-9bf3-b7fab60cb05e\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"羽空的卡片盒 (\"},{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"heptabase-blog-tlc2.vercel.app\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"heptabase-blog-tlc2.vercel.app\"},{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://heptabase-blog-tlc2.vercel.app/post?note-id=d47a1427-3c90-4ce2-9bf3-b7fab60cb05e&active-note-id=d47a1427-3c90-4ce2-9bf3-b7fab60cb05e\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\")\"}]},{\"type\":\"heading\",\"attrs\":{\"id\":\"3b275c37-de78-4caf-8989-f6d973c7dad4\",\"level\":3},\"content\":[{\"type\":\"date\",\"attrs\":{\"date\":\"2026-02-20\"}},{\"type\":\"text\",\"text\":\" 更新網站基礎功能\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"2912af42-bef0-4304-87d3-d33eee148cf7\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"60616d64-8068-4021-a78d-34c2108db1e6\"},\"content\":[{\"type\":\"text\",\"text\":\"完成最後開啟卡片的關閉按鈕\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"58b939a1-d3d8-448e-81ff-c85085e80977\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"6671ce24-2518-479b-974f-f03bccb38026\"},\"content\":[{\"type\":\"text\",\"text\":\"完成搜尋功能\"}]}]},{\"type\":\"heading\",\"attrs\":{\"id\":\"06507104-6e81-477a-b3fd-da638a34eb0d\",\"level\":3},\"content\":[{\"type\":\"date\",\"attrs\":{\"date\":\"2026-02-19\"}},{\"type\":\"text\",\"text\":\" 重拾部落格\"}]},{\"type\":\"heading\",\"attrs\":{\"id\":\"b801e30f-982b-427b-912a-71d516e6c8b8\",\"level\":3},\"content\":[{\"type\":\"date\",\"attrs\":{\"date\":\"2024-02-17\"}},{\"type\":\"text\",\"text\":\"完成4項我的願景、我的原則撰寫\"}]},{\"type\":\"heading\",\"attrs\":{\"id\":\"3ea8a486-d3cb-4205-9489-774d741b3e20\",\"level\":3},\"content\":[{\"type\":\"date\",\"attrs\":{\"date\":\"2024-02-16\"}},{\"type\":\"text\",\"text\":\"撰寫完成\"},{\"type\":\"card\",\"attrs\":{\"cardId\":\"4ec26fa6-b077-4ea5-888e-55bc0b85d54d\"}},{\"type\":\"text\",\"text\":\"、撰寫完成\"},{\"type\":\"card\",\"attrs\":{\"cardId\":\"ca82336a-6341-465d-a303-869b760a43b2\"}}]},{\"type\":\"heading\",\"attrs\":{\"id\":\"89ec9bc8-6cad-4d77-a4c6-6e8d60fea757\",\"level\":3},\"content\":[{\"type\":\"date\",\"attrs\":{\"date\":\"2024-02-14\"}},{\"type\":\"text\",\"text\":\"　用空白格解決數字花園換行問題\"}]},{\"type\":\"horizontal_rule\",\"attrs\":{\"id\":\"f8e57b67-3967-4c65-8fdd-3c8ef2255c9a\"}},{\"type\":\"heading\",\"attrs\":{\"id\":\"35a5082f-c76d-4636-9986-1136c9f57766\",\"level\":3},\"content\":[{\"type\":\"text\",\"text\":\"待編輯項目\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"f00cb1e2-8f01-42ed-bea2-65bc9e00f51b\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"5cf43027-5181-4188-be4d-5aaf1a464d82\"},\"content\":[{\"type\":\"text\",\"text\":\"撰寫關於學習文章\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"9720df79-07c6-4129-be58-b458187a9419\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"92efec87-6c02-41eb-bf59-480b8226d61a\"},\"content\":[{\"type\":\"text\",\"text\":\"撰寫 平台創立初衷、我的願景\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"ccbff917-5b2d-44a5-8941-96b4b15c5310\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"93547853-471b-4101-91c3-896da9e37aef\"},\"content\":[{\"type\":\"text\",\"text\":\"Heptabase專案管理與知識管理教學文章撰寫\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"95a1ae94-71b1-48e6-83e1-2eaf0b529752\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"13fc9430-f347-433f-9123-cfc6c18012be\"},\"content\":[{\"type\":\"text\",\"text\":\"將文章編上編碼，讓讀者更好查詢→文章量多再建立\"}]}]},{\"type\":\"heading\",\"attrs\":{\"id\":\"f66af714-3ec4-4b49-b372-89208ca90093\",\"level\":3},\"content\":[{\"type\":\"text\",\"text\":\"待開發功能\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"d3352037-ce0f-4e34-ab02-009bc10e0564\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"5cbfe06d-d6d4-4302-9834-4bd626803685\"},\"content\":[{\"type\":\"text\",\"marks\":[{\"type\":\"strike\"}],\"text\":\"圖片直接更新而不需要上圖床\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"56de7e67-ba9b-429c-be50-e0267e734bb0\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"f6e5bed6-5de7-4f85-9efb-c3b3313f6a9d\"},\"content\":[{\"type\":\"text\",\"text\":\"透過超連結快轉段落(或側邊欄)\"}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"50bf363a-46f1-49af-a6ea-8838e8f97521\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"26921fca-024f-4e69-a4b2-803ec8a7cbf1\"},\"content\":[{\"type\":\"text\",\"text\":\"看文章有音樂能聽　預覽yt\"}]}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"d1d2afd0-d73d-40bf-9a71-eda54792bdf7\"}}]}",
         "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
         "createdTime": "2024-02-14T03:03:54.637Z",
         "id": "359f4dc8-9cd2-40d4-876a-045984d29a82",
         "insights": [],
         "isTrashed": false,
-        "lastEditedTime": "2026-02-20T12:34:47.894Z",
-        "lastUsedTime": "2026-02-20T12:34:47.894Z",
+        "lastEditedTime": "2026-02-20T13:18:04.466Z",
+        "lastUsedTime": "2026-02-20T13:18:04.466Z",
         "propertiesConfig": [],
         "sourceCardId": null,
         "sourceCardType": null,
@@ -1400,14 +1400,14 @@
         "wasInsightGenerated": false
       },
       {
-        "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"id\":\"47be7be2-86c1-44de-a6e1-ca748f004122\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"故事從這裡開始\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"bfad591c-4fe8-44eb-82e2-eb9a6e1f14fa\"},\"content\":[{\"type\":\"text\",\"text\":\"22年上半年，我剛脫離學測的泥沼，對大學沒什麼憧憬，受到疫情的影響我也沒發展成一位玩咖，不過只有一件事我很確定，那時絕對是什麼都不懂的小屁孩。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"ac141599-431a-4fcb-a75a-470800cacaad\"},\"content\":[{\"type\":\"text\",\"text\":\"故事是26年補寫的，因此有些事情記憶沒那麼深了，不過我只記得這時候我剛接觸\"},{\"type\":\"text\",\"marks\":[{\"type\":\"strong\"}],\"text\":\"閱讀\"},{\"type\":\"text\",\"text\":\"，從原本一本書都沒讀完過，開始慢慢積累了10幾本書的閱讀量。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"e31b788f-9b3e-4fe7-83ba-9fa4cbc2cfc6\"},\"content\":[{\"type\":\"text\",\"text\":\"那時，我感受到我內在似乎有某些力量在湧動，事後知道，那是人類精神的力量(強大、崇高卻難以捉摸)，我不確定這意味著什麼，但我知道這讓我開始充滿生命力，開始意識到什麼是”意義”。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"1ae5ba92-0bba-4451-88d3-eef54ba82d16\"},\"content\":[{\"type\":\"text\",\"text\":\"*像極了初出茅廬的年輕人，拿著幾本書就以為自己能改變世界\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"3b775e64-0f5c-43e7-93e1-66bb4a85ef4b\"}},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"52d85d48-a671-4534-998d-84fe94c126c3\"},\"content\":[{\"type\":\"text\",\"text\":\"22年下半年，我帶著這樣的力量進入大學，對我而言，我對於課業處在一個曖昧的階段，我那時崇尚”\"},{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://www.youtube.com/watch?v=74B38b8a2MU&pp=ygUP56ys5LqM57Gz6J-y6KuW\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"第二米蟲論\"},{\"type\":\"text\",\"text\":\"”，我對大部分課業也都處在能混就混的狀態，因為我認為學業並沒什麼價值(即便現在我仍然保持懷疑)，真正對生活有價值的事情需要刻意去學maybe 書籍or 線上課程。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"f2211ac3-d860-42d3-8e73-73787f78b139\"},\"content\":[{\"type\":\"text\",\"text\":\"所以我轉而將注意力轉向到(那時我認為)”\"},{\"type\":\"text\",\"marks\":[{\"type\":\"strong\"}],\"text\":\"有價值\"},{\"type\":\"text\",\"text\":\"的事情”，我期望透過累積生活知識實現複利，累積財富，甚至有個念頭是幫助別人、改變世界！\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"584efb8e-8f82-4593-af00-9fac704871c2\"},\"content\":[{\"type\":\"text\",\"text\":\"事實上，我那時迷上了知識管理，像卡片盒筆記法，甚至更詳細地說是\"},{\"type\":\"text\",\"marks\":[{\"type\":\"strong\"}],\"text\":\"自我成長\"},{\"type\":\"text\",\"text\":\"。所以我很自然地接觸到這些，感覺很厲害的事情，”寫作\\\"、”閱讀”、\\\"自律”、”早起”、\\\"健身/運動”、\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"215a0781-cc9f-4875-b173-730d78d8da5e\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"27acca12-98d9-419f-aa3d-c6efafb927c0\"},\"marks\":[{\"type\":\"strike\"}]},{\"type\":\"text\",\"marks\":[{\"type\":\"strike\"}],\"text\":\"的經歷放在\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"d2eb0863-55fd-434d-8a14-f6e40fb5440e\"},\"content\":[{\"type\":\"text\",\"text\":\"26年，我想要重拾寫作，不為什麼，只為開始培養一個輸出型愛好。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"e30e4e09-5421-410e-80ef-01ddf2b746fc\"},\"content\":[{\"type\":\"text\",\"text\":\"也許這次的理由不再是那些高大尚的理想\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"3f0ba3e0-83f1-4a01-80fc-b2864aeff103\"},\"content\":[{\"type\":\"text\",\"text\":\"理由很單純，\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"66f95bb3-52b8-4646-8341-82003422b7d1\"},\"content\":[{\"type\":\"text\",\"text\":\"就是我想要釐清自己的思緒\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"7edd1c49-fd79-4729-8466-691732d4574e\"},\"content\":[{\"type\":\"text\",\"text\":\"有事情想說\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"e1dbc97c-04c0-43f8-a393-97784548a9cc\"},\"content\":[{\"type\":\"text\",\"text\":\"想要慢慢累積感動\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"7129bc03-f92f-4f2b-a4a9-2ed46596e0af\"},\"content\":[{\"type\":\"text\",\"text\":\"從而讓我 變得完整 或出生命力\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"a8a1f04e-2c14-448b-98d5-aa6794383447\"},\"content\":[{\"type\":\"text\",\"text\":\"也與我一樣在追求對我來說重要的事情，一樣是從中尋找意義感。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"7db7810c-8878-4fdf-a92c-3f338999686e\"},\"content\":[{\"type\":\"text\",\"text\":\"不過，這些追求不再流於所有雜亂的理想，而是回歸簡單的事實，為了我，這樣字做很有趣，僅此而已。\"}]},{\"type\":\"image\",\"attrs\":{\"id\":\"7ec0c60d-1b1a-409f-9e17-580aadacba22\",\"src\":\"https://images.vocus.cc/eb1ff14e-1685-4b46-9d8b-c866e20a74f6.jpg\",\"fileId\":null,\"alt\":null,\"title\":null,\"width\":null,\"originalHeight\":1160,\"originalWidth\":1920,\"alignment\":\"center\",\"reference\":null}},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"81a198ac-f0e1-4152-b1e0-85f90318bc9e\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"dcb2e2c1-3a8b-404e-a77a-24f3cdbc0c6f\"},\"content\":[{\"type\":\"text\",\"text\":\"music with 這世界那麼多人\"}]}]}]}",
+        "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"id\":\"47be7be2-86c1-44de-a6e1-ca748f004122\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"故事從這裡開始\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"bfad591c-4fe8-44eb-82e2-eb9a6e1f14fa\"},\"content\":[{\"type\":\"text\",\"text\":\"22年上半年，我剛脫離學測的泥沼，對大學沒什麼憧憬，受到疫情的影響我也沒發展成一位玩咖，不過只有一件事我很確定，那時絕對是什麼都不懂的小屁孩。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"ac141599-431a-4fcb-a75a-470800cacaad\"},\"content\":[{\"type\":\"text\",\"text\":\"故事是26年補寫的，因此有些事情記憶沒那麼深了，不過我只記得這時候我剛接觸\"},{\"type\":\"text\",\"marks\":[{\"type\":\"strong\"}],\"text\":\"閱讀\"},{\"type\":\"text\",\"text\":\"，從原本一本書都沒讀完過，開始慢慢積累了10幾本書的閱讀量。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"e31b788f-9b3e-4fe7-83ba-9fa4cbc2cfc6\"},\"content\":[{\"type\":\"text\",\"text\":\"那時，我感受到我內在似乎有某些力量在湧動，事後知道，那是人類精神的力量(強大、崇高卻難以捉摸)，我不確定這意味著什麼，但我知道這讓我開始充滿生命力，開始意識到什麼是”意義”。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"1ae5ba92-0bba-4451-88d3-eef54ba82d16\"},\"content\":[{\"type\":\"text\",\"text\":\"*像極了初出茅廬的年輕人，拿著幾本書就以為自己能改變世界\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"3b775e64-0f5c-43e7-93e1-66bb4a85ef4b\"}},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"52d85d48-a671-4534-998d-84fe94c126c3\"},\"content\":[{\"type\":\"text\",\"text\":\"22年下半年，我帶著這樣的力量進入大學，對我而言，我對於課業處在一個曖昧的階段，我那時崇尚”\"},{\"type\":\"text\",\"marks\":[{\"type\":\"link\",\"attrs\":{\"href\":\"https://www.youtube.com/watch?v=74B38b8a2MU&pp=ygUP56ys5LqM57Gz6J-y6KuW\",\"title\":null,\"data-internal-href\":null,\"edited\":false}}],\"text\":\"第二米蟲論\"},{\"type\":\"text\",\"text\":\"”，我對大部分課業也都處在能混就混的狀態，因為我認為學業並沒什麼價值(即便現在我仍然保持懷疑)，真正對生活有價值的事情需要刻意去學maybe 書籍or 線上課程。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"f2211ac3-d860-42d3-8e73-73787f78b139\"},\"content\":[{\"type\":\"text\",\"text\":\"所以我轉而將注意力轉向到(那時我認為)”\"},{\"type\":\"text\",\"marks\":[{\"type\":\"strong\"}],\"text\":\"有價值\"},{\"type\":\"text\",\"text\":\"的事情”，我期望透過累積生活知識實現複利，累積財富，甚至有個念頭是幫助別人、改變世界！\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"584efb8e-8f82-4593-af00-9fac704871c2\"},\"content\":[{\"type\":\"text\",\"text\":\"事實上，我那時迷上了知識管理，像卡片盒筆記法，甚至更詳細地說是\"},{\"type\":\"text\",\"marks\":[{\"type\":\"strong\"}],\"text\":\"自我成長\"},{\"type\":\"text\",\"text\":\"。所以我很自然地接觸到這些，感覺很厲害的事情，”寫作\\\"、”閱讀”、\\\"自律”、”早起”、\\\"健身/運動”、\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"d2eb0863-55fd-434d-8a14-f6e40fb5440e\"},\"content\":[{\"type\":\"text\",\"text\":\"26年，我想要重拾寫作，不為什麼，只為開始培養一個輸出型愛好。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"e30e4e09-5421-410e-80ef-01ddf2b746fc\"},\"content\":[{\"type\":\"text\",\"text\":\"也許這次的理由不再是那些高大尚的理想\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"3f0ba3e0-83f1-4a01-80fc-b2864aeff103\"},\"content\":[{\"type\":\"text\",\"text\":\"理由很單純，\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"66f95bb3-52b8-4646-8341-82003422b7d1\"},\"content\":[{\"type\":\"text\",\"text\":\"就是我想要釐清自己的思緒\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"7edd1c49-fd79-4729-8466-691732d4574e\"},\"content\":[{\"type\":\"text\",\"text\":\"有事情想說\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"e1dbc97c-04c0-43f8-a393-97784548a9cc\"},\"content\":[{\"type\":\"text\",\"text\":\"想要慢慢累積感動\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"7129bc03-f92f-4f2b-a4a9-2ed46596e0af\"},\"content\":[{\"type\":\"text\",\"text\":\"從而讓我 變得完整 或出生命力\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"a8a1f04e-2c14-448b-98d5-aa6794383447\"},\"content\":[{\"type\":\"text\",\"text\":\"也與我一樣在追求對我來說重要的事情，一樣是從中尋找意義感。\"}]},{\"type\":\"paragraph\",\"attrs\":{\"id\":\"7db7810c-8878-4fdf-a92c-3f338999686e\"},\"content\":[{\"type\":\"text\",\"text\":\"不過，這些追求不再流於所有雜亂的理想，而是回歸簡單的事實，為了我，這樣字做很有趣，僅此而已。\"}]},{\"type\":\"image\",\"attrs\":{\"id\":\"7ec0c60d-1b1a-409f-9e17-580aadacba22\",\"src\":\"https://images.vocus.cc/eb1ff14e-1685-4b46-9d8b-c866e20a74f6.jpg\",\"fileId\":null,\"alt\":null,\"title\":null,\"width\":null,\"originalHeight\":1160,\"originalWidth\":1920,\"alignment\":\"center\",\"reference\":null}},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"81a198ac-f0e1-4152-b1e0-85f90318bc9e\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"dcb2e2c1-3a8b-404e-a77a-24f3cdbc0c6f\"},\"content\":[{\"type\":\"text\",\"text\":\"music with 這世界那麼多人\"}]}]}]}",
         "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
         "createdTime": "2026-02-19T09:15:04.638Z",
         "id": "dc4564f8-d8e1-4f96-a6d9-cdac46a35638",
         "insights": [],
         "isTrashed": false,
-        "lastEditedTime": "2026-02-20T10:04:27.051Z",
-        "lastUsedTime": "2026-02-20T10:04:27.051Z",
+        "lastEditedTime": "2026-02-20T14:22:37.513Z",
+        "lastUsedTime": "2026-02-20T14:22:37.513Z",
         "propertiesConfig": [],
         "sourceCardId": null,
         "sourceCardType": null,
@@ -1480,14 +1480,14 @@
         "wasInsightGenerated": false
       },
       {
-        "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"id\":\"861bfffd-9713-4130-b981-4c06fa00d4f7\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"【手作】作品集\"}]}]}",
+        "content": "{\"type\":\"doc\",\"content\":[{\"type\":\"heading\",\"attrs\":{\"id\":\"861bfffd-9713-4130-b981-4c06fa00d4f7\",\"level\":1},\"content\":[{\"type\":\"text\",\"text\":\"【手作】作品集\"}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"0b94b533-07fd-4dea-9683-a33158e4e961\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"b69a791a-385f-485c-98fd-ee6e38f3bf54\"},\"content\":[{\"type\":\"text\",\"text\":\"✨✨✨\"},{\"type\":\"card\",\"attrs\":{\"cardId\":\"600afd60-b852-4425-bc0b-68c171c34476\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"225b6122-12cf-4dd1-913d-ce0e2cffa141\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"9ec6c2a9-593f-45ba-bd2a-5cf01c9c4c56\"},\"content\":[{\"type\":\"text\",\"text\":\"✨✨\"},{\"type\":\"card\",\"attrs\":{\"cardId\":\"e0add5ba-ab41-4c17-9a1b-52bcfb0f7bf1\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"64080cfb-1d81-42a2-a947-2ba3418daac5\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"5bed0599-27e3-47b8-b3df-5f2cec7abbc0\"},\"content\":[{\"type\":\"text\",\"text\":\"✨\"},{\"type\":\"card\",\"attrs\":{\"cardId\":\"314917c3-8398-4d5d-82d4-7ebc750a82ec\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"d5542fb8-974a-4bdc-9b0e-fcc0996918c7\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"f1f6805d-58a7-415f-b473-6b18c546bfc3\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"64dfa5a8-dc77-42f1-b0bd-6c36faf85ff8\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"cecdff55-0af9-43f8-94b7-19775fbd3300\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"52095733-7585-421e-acee-6908793c7744\"},\"content\":[{\"type\":\"text\",\"text\":\"✨\"},{\"type\":\"card\",\"attrs\":{\"cardId\":\"52a1f0d5-cebb-4508-8ff4-95790a33e7d4\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"454a942d-3f87-4e73-93da-c1360e621905\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"6adfc617-9a38-462f-bc27-b47b218c4df3\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"1c6068b9-5f51-4b98-b637-dc908fd7c89d\"}}]}]},{\"type\":\"bullet_list_item\",\"attrs\":{\"id\":\"e73abd08-7021-4314-a88b-d0055879dafa\",\"folded\":false,\"format\":null},\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"61afa883-577d-4e01-83f8-64d09591e7c5\"},\"content\":[{\"type\":\"card\",\"attrs\":{\"cardId\":\"d782fe3f-e248-470f-a4e9-40930d64852e\"}}]}]}]}",
         "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
         "createdTime": "2026-02-19T15:03:11.901Z",
         "id": "62439d18-dfe3-4ab6-ae26-4d929b5787c0",
         "insights": [],
         "isTrashed": false,
-        "lastEditedTime": "2026-02-19T15:03:20.811Z",
-        "lastUsedTime": "2026-02-19T15:03:20.811Z",
+        "lastEditedTime": "2026-02-20T14:19:58.034Z",
+        "lastUsedTime": "2026-02-20T14:19:58.034Z",
         "propertiesConfig": [],
         "sourceCardId": null,
         "sourceCardType": null,
@@ -2049,7 +2049,7 @@
             "direction": "vertical",
             "id": "middle_point_0c8b1d42-25ad-482d-9d45-95fe5f5d3c45",
             "x": 176.69226460774743,
-            "y": 1566.9925223078458
+            "y": 1567.1175223078458
           }
         ],
         "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
@@ -2060,7 +2060,7 @@
         "endPos": "left",
         "endStyle": "default",
         "id": "0c8b1d42-25ad-482d-9d45-95fe5f5d3c45",
-        "lastEditedTime": "2026-02-20T09:29:29.011Z",
+        "lastEditedTime": "2026-02-20T14:22:05.428Z",
         "lineStyle": "regular",
         "lineThickness": 3,
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
@@ -2083,6 +2083,50 @@
         "endStyle": "default",
         "id": "168abadc-7bc2-4727-85f8-9d262f758df0",
         "lastEditedTime": "2024-02-17T06:45:23.055Z",
+        "lineStyle": "regular",
+        "lineThickness": 3,
+        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
+        "type": "elbow",
+        "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559"
+      },
+      {
+        "beginId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
+        "beginObjectType": "section",
+        "beginPos": "auto",
+        "beginStyle": "none",
+        "color": "white",
+        "controlPoints": [],
+        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
+        "createdTime": "2026-02-20T14:21:47.545Z",
+        "description": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"40f861c4-ef93-4967-b429-a9aea54418b2\"}}]}",
+        "endId": "a28f99fb-e766-4313-819a-40ce423cbfb6",
+        "endObjectType": "section",
+        "endPos": "left",
+        "endStyle": "default",
+        "id": "2bce9f2b-5f89-4c7f-affd-cc8fbadc8328",
+        "lastEditedTime": "2026-02-20T14:21:53.481Z",
+        "lineStyle": "regular",
+        "lineThickness": 3,
+        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
+        "type": "elbow",
+        "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559"
+      },
+      {
+        "beginId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
+        "beginObjectType": "section",
+        "beginPos": "auto",
+        "beginStyle": "none",
+        "color": "white",
+        "controlPoints": [],
+        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
+        "createdTime": "2026-02-20T14:21:56.241Z",
+        "description": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"attrs\":{\"id\":\"fe54bebe-4b4c-4d5c-a3df-d50af9100940\"}}]}",
+        "endId": "c03ca8da-0517-4f6b-a6f7-7d9d8c467f33",
+        "endObjectType": "section",
+        "endPos": "left",
+        "endStyle": "default",
+        "id": "53169f99-b036-4238-a865-46755653011e",
+        "lastEditedTime": "2026-02-20T14:21:56.241Z",
         "lineStyle": "regular",
         "lineThickness": 3,
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
@@ -2604,34 +2648,6 @@
       },
       {
         "data": {
-          "id": "359f4dc8-9cd2-40d4-876a-045984d29a82",
-          "title": "VUR版本更新紀錄"
-        },
-        "type": "note"
-      },
-      {
-        "data": {
-          "id": "e819417e-75be-4322-9e6f-7d11fe2fba2a",
-          "title": "【其他】傳說最高的紀錄"
-        },
-        "type": "note"
-      },
-      {
-        "data": {
-          "id": "a397a569-20e0-4dbe-9fad-a7ea0721b1f9",
-          "title": "【其他】桌子no藏品"
-        },
-        "type": "note"
-      },
-      {
-        "data": {
-          "id": "3307f8a7-5800-4721-b9b7-83dea9248554",
-          "title": "三種實際情況的閱讀法"
-        },
-        "type": "note"
-      },
-      {
-        "data": {
           "id": "16f0bfac-a3bc-4ab9-a7af-c16ab45db1c8",
           "title": "《拆掉思維裡的牆》讀後心得 : 我們有能力過好自己的人生"
         },
@@ -2641,6 +2657,20 @@
         "data": {
           "id": "a325e9c1-317f-4a26-9b4a-bc54e6e5de4b",
           "title": "《被討厭的勇氣》讀後心得 : 幸福就是相忘於江湖"
+        },
+        "type": "note"
+      },
+      {
+        "data": {
+          "id": "359f4dc8-9cd2-40d4-876a-045984d29a82",
+          "title": "VUR版本更新紀錄"
+        },
+        "type": "note"
+      },
+      {
+        "data": {
+          "id": "3307f8a7-5800-4721-b9b7-83dea9248554",
+          "title": "三種實際情況的閱讀法"
         },
         "type": "note"
       },
@@ -2744,13 +2774,6 @@
       },
       {
         "data": {
-          "id": "27acca12-98d9-419f-aa3d-c6efafb927c0",
-          "title": "瓦基"
-        },
-        "type": "note"
-      },
-      {
-        "data": {
           "id": "62439d18-dfe3-4ab6-ae26-4d929b5787c0",
           "title": "【手作】作品集"
         },
@@ -2809,6 +2832,55 @@
         "data": {
           "id": "b645ff62-28e4-41a8-b8d6-4a6cf9618495",
           "title": "Heptabase"
+        },
+        "type": "note"
+      },
+      {
+        "data": {
+          "id": "600afd60-b852-4425-bc0b-68c171c34476",
+          "title": "【手作】蒸汽火車頭"
+        },
+        "type": "note"
+      },
+      {
+        "data": {
+          "id": "e0add5ba-ab41-4c17-9a1b-52bcfb0f7bf1",
+          "title": "【手作】油屋"
+        },
+        "type": "note"
+      },
+      {
+        "data": {
+          "id": "314917c3-8398-4d5d-82d4-7ebc750a82ec",
+          "title": "【手作】刺繡"
+        },
+        "type": "note"
+      },
+      {
+        "data": {
+          "id": "64dfa5a8-dc77-42f1-b0bd-6c36faf85ff8",
+          "title": "【手作】教室投球機"
+        },
+        "type": "note"
+      },
+      {
+        "data": {
+          "id": "52a1f0d5-cebb-4508-8ff4-95790a33e7d4",
+          "title": "【手作】電燒像"
+        },
+        "type": "note"
+      },
+      {
+        "data": {
+          "id": "1c6068b9-5f51-4b98-b637-dc908fd7c89d",
+          "title": "【手作】拼貼像"
+        },
+        "type": "note"
+      },
+      {
+        "data": {
+          "id": "d782fe3f-e248-470f-a4e9-40930d64852e",
+          "title": "【模型組裝】大阪城"
         },
         "type": "note"
       },
@@ -2891,8 +2963,15 @@
       },
       {
         "data": {
-          "id": "2024-02-16",
-          "title": "Feb 16, 2024"
+          "id": "2026-02-20",
+          "title": "Feb 20, 2026"
+        },
+        "type": "journal"
+      },
+      {
+        "data": {
+          "id": "2026-02-19",
+          "title": "Feb 19, 2026"
         },
         "type": "journal"
       },
@@ -2905,8 +2984,8 @@
       },
       {
         "data": {
-          "id": "2026-02-20",
-          "title": "Feb 20, 2026"
+          "id": "2024-02-16",
+          "title": "Feb 16, 2024"
         },
         "type": "journal"
       },
@@ -2945,15 +3024,6 @@
       },
       {
         "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
-        "createdTime": "2026-02-19T14:45:49.405Z",
-        "lastEditedTime": "2026-02-19T14:45:49.405Z",
-        "objectId": "a7fdfb70-cb73-4b97-a9fb-52f66e60db3a",
-        "objectType": "cardInstance",
-        "sectionId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
-        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
-      },
-      {
-        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
         "createdTime": "2026-02-19T14:57:09.400Z",
         "lastEditedTime": "2026-02-19T14:57:09.400Z",
         "objectId": "3094041c-a4c9-42ce-b0cc-550a07941b5d",
@@ -2966,105 +3036,6 @@
         "createdTime": "2026-02-19T14:57:58.323Z",
         "lastEditedTime": "2026-02-19T14:57:58.323Z",
         "objectId": "db2ca203-4fb4-4609-88e2-347cac95748c",
-        "objectType": "cardInstance",
-        "sectionId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
-        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
-      },
-      {
-        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
-        "createdTime": "2026-02-19T15:03:11.989Z",
-        "lastEditedTime": "2026-02-19T15:03:11.989Z",
-        "objectId": "01b068e8-e7a8-4c99-84d5-e83c502ebc0d",
-        "objectType": "cardInstance",
-        "sectionId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
-        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
-      },
-      {
-        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
-        "createdTime": "2026-02-19T15:03:28.804Z",
-        "lastEditedTime": "2026-02-19T15:03:28.804Z",
-        "objectId": "cfccdd05-de7f-432b-8c0d-3a54a34af43a",
-        "objectType": "cardInstance",
-        "sectionId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
-        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
-      },
-      {
-        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
-        "createdTime": "2026-02-19T15:03:42.225Z",
-        "lastEditedTime": "2026-02-19T15:03:42.225Z",
-        "objectId": "4c9c9498-dbb2-4152-b68e-6b6a9ac335cf",
-        "objectType": "cardInstance",
-        "sectionId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
-        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
-      },
-      {
-        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
-        "createdTime": "2026-02-19T15:11:38.053Z",
-        "lastEditedTime": "2026-02-19T15:11:38.053Z",
-        "objectId": "0ff9baca-e554-4253-88d2-a6759979895e",
-        "objectType": "cardInstance",
-        "sectionId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
-        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
-      },
-      {
-        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
-        "createdTime": "2026-02-19T15:12:04.701Z",
-        "lastEditedTime": "2026-02-19T15:12:04.702Z",
-        "objectId": "5d56041a-cdc5-4559-b434-9697707a05b2",
-        "objectType": "cardInstance",
-        "sectionId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
-        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
-      },
-      {
-        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
-        "createdTime": "2026-02-19T15:12:37.236Z",
-        "lastEditedTime": "2026-02-19T15:12:37.237Z",
-        "objectId": "b745e864-ef28-4d3e-bfe7-70fce1bc46f6",
-        "objectType": "cardInstance",
-        "sectionId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
-        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
-      },
-      {
-        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
-        "createdTime": "2026-02-19T15:41:05.973Z",
-        "lastEditedTime": "2026-02-19T15:41:05.973Z",
-        "objectId": "86979e49-b7d2-4b18-82c6-46bf99322068",
-        "objectType": "cardInstance",
-        "sectionId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
-        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
-      },
-      {
-        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
-        "createdTime": "2026-02-19T15:42:45.574Z",
-        "lastEditedTime": "2026-02-19T15:42:45.574Z",
-        "objectId": "4580e32c-daf1-4975-bad6-4cb5c79aecb4",
-        "objectType": "cardInstance",
-        "sectionId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
-        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
-      },
-      {
-        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
-        "createdTime": "2026-02-19T15:43:32.903Z",
-        "lastEditedTime": "2026-02-19T15:43:32.903Z",
-        "objectId": "a579d312-abc8-430c-be9b-01cac4ed6173",
-        "objectType": "cardInstance",
-        "sectionId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
-        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
-      },
-      {
-        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
-        "createdTime": "2026-02-19T16:05:03.332Z",
-        "lastEditedTime": "2026-02-19T16:05:03.332Z",
-        "objectId": "baf9805f-f5f0-4f28-8946-268e81061862",
-        "objectType": "cardInstance",
-        "sectionId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
-        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
-      },
-      {
-        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
-        "createdTime": "2026-02-19T16:13:19.025Z",
-        "lastEditedTime": "2026-02-19T16:13:19.025Z",
-        "objectId": "71aa6e5b-d0dc-4e39-a254-70d87887185c",
         "objectType": "cardInstance",
         "sectionId": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
@@ -3176,22 +3147,94 @@
         "objectType": "cardInstance",
         "sectionId": "c03ca8da-0517-4f6b-a6f7-7d9d8c467f33",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
+      },
+      {
+        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
+        "createdTime": "2026-02-20T14:18:55.123Z",
+        "lastEditedTime": "2026-02-20T14:18:55.124Z",
+        "objectId": "a7fdfb70-cb73-4b97-a9fb-52f66e60db3a",
+        "objectType": "cardInstance",
+        "sectionId": "a28f99fb-e766-4313-819a-40ce423cbfb6",
+        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
+      },
+      {
+        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
+        "createdTime": "2026-02-20T14:18:55.124Z",
+        "lastEditedTime": "2026-02-20T14:18:55.124Z",
+        "objectId": "01b068e8-e7a8-4c99-84d5-e83c502ebc0d",
+        "objectType": "cardInstance",
+        "sectionId": "a28f99fb-e766-4313-819a-40ce423cbfb6",
+        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
+      },
+      {
+        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
+        "createdTime": "2026-02-20T14:18:55.124Z",
+        "lastEditedTime": "2026-02-20T14:18:55.124Z",
+        "objectId": "cfccdd05-de7f-432b-8c0d-3a54a34af43a",
+        "objectType": "cardInstance",
+        "sectionId": "a28f99fb-e766-4313-819a-40ce423cbfb6",
+        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
+      },
+      {
+        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
+        "createdTime": "2026-02-20T14:18:55.124Z",
+        "lastEditedTime": "2026-02-20T14:18:55.124Z",
+        "objectId": "4c9c9498-dbb2-4152-b68e-6b6a9ac335cf",
+        "objectType": "cardInstance",
+        "sectionId": "a28f99fb-e766-4313-819a-40ce423cbfb6",
+        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
+      },
+      {
+        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
+        "createdTime": "2026-02-20T14:18:55.124Z",
+        "lastEditedTime": "2026-02-20T14:18:55.124Z",
+        "objectId": "0ff9baca-e554-4253-88d2-a6759979895e",
+        "objectType": "cardInstance",
+        "sectionId": "a28f99fb-e766-4313-819a-40ce423cbfb6",
+        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
+      },
+      {
+        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
+        "createdTime": "2026-02-20T14:18:55.124Z",
+        "lastEditedTime": "2026-02-20T14:18:55.124Z",
+        "objectId": "5d56041a-cdc5-4559-b434-9697707a05b2",
+        "objectType": "cardInstance",
+        "sectionId": "a28f99fb-e766-4313-819a-40ce423cbfb6",
+        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
+      },
+      {
+        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
+        "createdTime": "2026-02-20T14:18:55.124Z",
+        "lastEditedTime": "2026-02-20T14:18:55.124Z",
+        "objectId": "b745e864-ef28-4d3e-bfe7-70fce1bc46f6",
+        "objectType": "cardInstance",
+        "sectionId": "a28f99fb-e766-4313-819a-40ce423cbfb6",
+        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
+      },
+      {
+        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
+        "createdTime": "2026-02-20T14:18:55.124Z",
+        "lastEditedTime": "2026-02-20T14:18:55.124Z",
+        "objectId": "86979e49-b7d2-4b18-82c6-46bf99322068",
+        "objectType": "cardInstance",
+        "sectionId": "a28f99fb-e766-4313-819a-40ce423cbfb6",
+        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9"
       }
     ],
     "sections": [
       {
-        "color": "white",
+        "color": "red",
         "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
         "createdTime": "2026-02-19T14:45:35.157Z",
-        "height": 2578.6586035320956,
+        "height": 1286.5956876792309,
         "id": "d664fe5e-e914-4b8f-bda9-9ae8701cefad",
-        "lastEditedTime": "2026-02-20T09:29:28.847Z",
+        "lastEditedTime": "2026-02-20T14:22:05.212Z",
         "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
         "title": "about me",
         "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
-        "width": 4056.609136799226,
-        "x": 6945.341896229187,
-        "y": 436.0570214679043
+        "width": 1409.9424701325584,
+        "x": 9293.119707915386,
+        "y": 362.1092938405029
       },
       {
         "color": "white",
@@ -3206,6 +3249,20 @@
         "width": 2994.424847791878,
         "x": 11235.546375502152,
         "y": 1724.8559480527197
+      },
+      {
+        "color": "white",
+        "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
+        "createdTime": "2026-02-20T14:18:41.028Z",
+        "height": 1253.7897041184292,
+        "id": "a28f99fb-e766-4313-819a-40ce423cbfb6",
+        "lastEditedTime": "2026-02-20T14:18:55.193Z",
+        "spaceId": "1073eaff-d09e-4b1b-a27a-29250ff26aa9",
+        "title": "作品集",
+        "whiteboardId": "946f23a3-75ef-48e3-8e7b-35c2376f2559",
+        "width": 2795.0003051757812,
+        "x": 11231.957884731984,
+        "y": 283.94029588157093
       }
     ],
     "sources": [],
@@ -3214,10 +3271,10 @@
     "version": 56,
     "whiteboardInstances": [],
     "whiteboardOffset": {
-      "x": 2491.787562126216,
-      "y": -1293.0753762639242
+      "x": 1376.0553722538325,
+      "y": 92.0955481516753
     },
-    "whiteboardZoom": 1.1586268430269633,
+    "whiteboardZoom": 0.7000000000000001,
     "whiteboards": [
       {
         "createdBy": "e1d80ec8-d691-4c24-a3d0-5ea663980c34",
@@ -3239,7 +3296,7 @@
         "journalConfig": {
           "references": []
         },
-        "lastEditedTime": "2026-02-18T16:17:38.979Z",
+        "lastEditedTime": "2026-02-20T13:43:21.348Z",
         "name": "羽空's Space",
         "tabConfig": {
           "tabGroupOrder": []
@@ -3249,5 +3306,5 @@
     ]
   },
   "result": "success",
-  "time": 1771590956
+  "time": 1771598402
 }

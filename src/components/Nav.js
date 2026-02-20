@@ -1,7 +1,44 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import CONFIG from '../config'
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from "@nextui-org/navbar";
+import { heptaToMD } from '../constantFunction';
+
+
+// 從 Hepta content JSON 字串中取出包含關鍵字的純文字片段
+function getPreviewSnippet(card, query) {
+    if (!query || !card.content) return ''
+    try {
+        const raw = typeof card.content === 'string' ? card.content : ''
+        const texts = []
+        const matches = raw.matchAll(/"text"\s*:\s*"([^"\\]*(\\.[^"\\]*)*)"/g)
+        for (const m of matches) {
+            // unescape JSON 字串中的 \"
+            texts.push(m[1].replace(/\\"/g, '"').replace(/\\n/g, ' '))
+        }
+        const fullText = texts.join(' ')
+        const lq = query.toLowerCase()
+        const idx = fullText.toLowerCase().indexOf(lq)
+        if (idx === -1) return ''
+        const start = Math.max(0, idx - 50)
+        const end = Math.min(fullText.length, idx + query.length + 150)
+        let snippet = (start > 0 ? '...' : '') + fullText.slice(start, end) + (end < fullText.length ? '...' : '')
+        return snippet
+    } catch (_) {
+        return ''
+    }
+}
+
+// 將文字中的關鍵字螢光標記（回傳 JSX 陣列）
+function highlightText(text, query) {
+    if (!query || !text) return text
+    const parts = text.split(new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'))
+    return parts.map((part, i) =>
+        part.toLowerCase() === query.toLowerCase()
+            ? <mark key={i} className='nav_search_highlight'>{part}</mark>
+            : part
+    )
+}
 
 
 // 页面头部
@@ -11,11 +48,11 @@ function Nav(props) {
     const [searchOpen, setSearchOpen] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
     const [searchResults, setSearchResults] = useState([]);
+    const [hoveredCard, setHoveredCard] = useState(null);
     const inputRef = useRef(null);
     const searchBoxRef = useRef(null);
 
     const handleNavBarClick = (e) => {
-        console.log('handleNavBarClick');
         sessionStorage.setItem('nav_type', 3)
     }
 
@@ -24,11 +61,11 @@ function Nav(props) {
         setShowChatWindow(!showChatWindow)
     }
 
-    // 點擊搜尋 icon
     const handleSearchIconClick = () => {
         setSearchOpen(true)
         setSearchQuery('')
         setSearchResults([])
+        setHoveredCard(null)
         setTimeout(() => {
             if (inputRef.current) inputRef.current.focus()
         }, 150)
@@ -51,11 +88,9 @@ function Nav(props) {
         props.allCards.forEach(card => {
             const title = (card.title || '').toLowerCase()
 
-            // 把 content（可能是 JSON 字串）中的文字取出來搜尋
             let contentText = ''
             try {
                 const raw = typeof card.content === 'string' ? card.content : ''
-                // 取出所有 "text":"..." 的值
                 const matches = raw.matchAll(/"text"\s*:\s*"([^"\\]*(\\.[^"\\]*)*)"/g)
                 for (const m of matches) {
                     contentText += m[1] + ' '
@@ -73,32 +108,32 @@ function Nav(props) {
         setSearchResults([...titleMatches, ...contentMatches].slice(0, 8))
     }
 
-    // 點擊結果跳轉
     const handleResultClick = (card) => {
         setSearchOpen(false)
         setSearchQuery('')
         setSearchResults([])
+        setHoveredCard(null)
         if (props.navigate) {
             props.navigate('/post?note-id=' + card.id + '&active-note-id=' + card.id)
         }
     }
 
-    // 按 ESC 關閉
     const handleKeyDown = (e) => {
         if (e.key === 'Escape') {
             setSearchOpen(false)
             setSearchQuery('')
             setSearchResults([])
+            setHoveredCard(null)
         }
     }
 
-    // 點擊外部關閉
     useEffect(() => {
         const handleClickOutside = (e) => {
             if (searchBoxRef.current && !searchBoxRef.current.contains(e.target)) {
                 setSearchOpen(false)
                 setSearchQuery('')
                 setSearchResults([])
+                setHoveredCard(null)
             }
         }
         if (searchOpen) {
@@ -110,7 +145,6 @@ function Nav(props) {
     // 加载 Tabs
     let tabs = []
     Object.keys(CONFIG['pages']).forEach(key => {
-
         let page
         if (key === 'Activity') {
             page = <NavbarItem key={CONFIG['pages']}>
@@ -121,9 +155,7 @@ function Nav(props) {
                 <Link to={'/post?note-id=' + CONFIG['pages'][key] + '&active-note-id=' + CONFIG['pages'][key]}>{key}</Link>
             </NavbarItem>
         }
-
         tabs.push(page)
-
     });
 
     return (
@@ -131,71 +163,107 @@ function Nav(props) {
         <Navbar shouldHideOnScroll isBlurred={false} maxWidth={'full'} height={'3rem'} isBordered={true} >
             <NavbarBrand>
                 <span onClick={handleNavBarClick}><Link to='/'><img style={{ width: '22px' }} src='logo.png'></img></Link></span>
+            </NavbarBrand>
 
-                {/* 搜尋區塊 */}
-                <div ref={searchBoxRef} className='nav_search_box' style={{ marginLeft: '10px', position: 'relative', display: 'flex', alignItems: 'center' }}>
-
-                    {/* 搜尋 icon（放大鏡，低調小圖示） */}
-                    {!searchOpen && (
-                        <button
-                            className='nav_search_icon_btn'
-                            onClick={handleSearchIconClick}
-                            title='搜尋'
-                        >
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                <circle cx="11" cy="11" r="8" />
-                                <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                            </svg>
-                        </button>
-                    )}
-
-                    {/* 展開的輸入框 */}
-                    {searchOpen && (
-                        <div className='nav_search_input_wrap'>
-                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ opacity: 0.5, flexShrink: 0 }}>
-                                <circle cx="11" cy="11" r="8" />
-                                <line x1="21" y1="21" x2="16.65" y2="16.65" />
-                            </svg>
-                            <input
-                                ref={inputRef}
-                                className='nav_search_input'
-                                type='text'
-                                placeholder='搜尋...'
-                                value={searchQuery}
-                                onChange={handleSearchInput}
-                                onKeyDown={handleKeyDown}
-                            />
-                        </div>
-                    )}
-
-                    {/* 搜尋結果下拉 */}
-                    {searchResults.length > 0 && (
-                        <div className='nav_search_results'>
-                            {searchResults.map(card => (
-                                <div
-                                    key={card.id}
-                                    className='nav_search_result_item'
-                                    onClick={() => handleResultClick(card)}
-                                >
-                                    <span className='nav_search_result_title'>{card.title}</span>
-                                </div>
-                            ))}
-                        </div>
-                    )}
-
-                    {/* 無結果提示 */}
-                    {searchOpen && searchQuery.trim() && searchResults.length === 0 && (
-                        <div className='nav_search_results'>
-                            <div className='nav_search_no_result'>無結果</div>
-                        </div>
-                    )}
-                </div>
-            </NavbarBrand >
-            <NavbarContent className='nav' justify="end"
-                style={{ marginBottom: '0' }}
-            >
+            <NavbarContent className='nav' justify="end" style={{ marginBottom: '0' }}>
                 {tabs}
+
+                {/* 搜尋區塊 — 放在右側 tabs 後面 */}
+                <NavbarItem>
+                    <div ref={searchBoxRef} className='nav_search_box'>
+
+                        {/* 搜尋 icon */}
+                        {!searchOpen && (
+                            <button className='nav_search_icon_btn' onClick={handleSearchIconClick} title='搜尋'>
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                                    <circle cx="11" cy="11" r="8" />
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                                </svg>
+                            </button>
+                        )}
+
+                        {/* 展開的輸入框 */}
+                        {searchOpen && (
+                            <div className='nav_search_input_wrap'>
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, opacity: 0.7 }}>
+                                    <circle cx="11" cy="11" r="8" />
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                                </svg>
+                                <input
+                                    ref={inputRef}
+                                    className='nav_search_input'
+                                    type='text'
+                                    placeholder='搜尋...'
+                                    value={searchQuery}
+                                    onChange={handleSearchInput}
+                                    onKeyDown={handleKeyDown}
+                                />
+                            </div>
+                        )}
+
+                        {/* 搜尋結果下拉 */}
+                        {searchResults.length > 0 && (
+                            <div className='nav_search_results'>
+                                {searchResults.map(card => (
+                                    <div
+                                        key={card.id}
+                                        className='nav_search_result_item'
+                                        onClick={() => handleResultClick(card)}
+                                        onMouseEnter={() => setHoveredCard(card.id)}
+                                        onMouseLeave={() => setHoveredCard(null)}
+                                    >
+                                        <span className='nav_search_result_title'>
+                                            {highlightText(card.title, searchQuery)}
+                                        </span>
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+
+                        {/* 左側預覽浮層 — 暫時隱藏 */}
+                        {false && hoveredCard && (() => {
+                            const card = searchResults.find(c => c.id === hoveredCard)
+                            if (!card) return null
+                            // 渲染真實 HTML 內容
+                            let previewHTML = ''
+                            try {
+                                const domEl = heptaToMD(card)
+                                // 在 innerHTML 中螢光標記關鍵字
+                                let html = domEl.innerHTML
+                                if (searchQuery) {
+                                    const escaped = searchQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+                                    html = html.replace(
+                                        new RegExp(`(${escaped})`, 'gi'),
+                                        '<mark class="nav_search_highlight">$1</mark>'
+                                    )
+                                }
+                                previewHTML = html
+                            } catch (_) { }
+                            if (!previewHTML) return null
+                            return (
+                                <div
+                                    className='nav_search_result_preview_panel markdown-body'
+                                    onMouseEnter={() => setHoveredCard(card.id)}
+                                    onMouseLeave={() => setHoveredCard(null)}
+                                >
+                                    <div className='nav_search_result_preview_title'>
+                                        {highlightText(card.title, searchQuery)}
+                                    </div>
+                                    <div dangerouslySetInnerHTML={{ __html: previewHTML }} />
+                                </div>
+                            )
+                        })()}
+
+                        {/* 無結果提示 */}
+                        {searchOpen && searchQuery.trim() && searchResults.length === 0 && (
+                            <div className='nav_search_results'>
+                                <div className='nav_search_no_result'>無結果</div>
+                            </div>
+                        )}
+                    </div>
+                </NavbarItem>
             </NavbarContent>
+
             {(props.discord && CONFIG.server && CONFIG.channel) &&
                 <button onClick={handleShowChatWindow}
                     className='flex flex-row items-cente'

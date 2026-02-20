@@ -611,14 +611,15 @@ svg.w-heatmap rect {
 .nav_search_results {
     position: absolute;
     top: calc(100% + 6px);
-    left: 0;
-    min-width: 220px;
+    right: 0;
+    left: auto;
+    min-width: 260px;
     background: var(--color-canvas-default, #fff);
     border: 1px solid var(--color-border-default, #d0d7de);
     border-radius: 6px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     z-index: 9999;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .nav_search_result_item {
@@ -635,8 +636,78 @@ svg.w-heatmap rect {
     background: var(--color-canvas-subtle, rgba(128, 128, 128, 0.08));
 }
 
+.nav_search_result_preview_panel {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 300px;
+    min-height: 240px;
+    max-height: 500px;
+    overflow-y: auto;
+    background: var(--color-canvas-default, #fff);
+    border: 1px solid var(--color-border-default, #d0d7de);
+    border-left: 3px solid var(--color-accent-fg, #0969da);
+    border-radius: 8px 0 0 8px;
+    box-shadow: -4px 4px 20px rgba(0, 0, 0, 0.14);
+    padding: 14px 16px;
+    font-size: 0.72rem;
+    line-height: 1.5;
+    color: var(--color-fg-default, #1a1a1a);
+    pointer-events: auto;
+    z-index: 10000;
+}
+
+/* 縮小 markdown 內容字體以適應小卡片 */
+.nav_search_result_preview_panel.markdown-body h1 {
+    font-size: 1rem !important;
+}
+
+.nav_search_result_preview_panel.markdown-body h2 {
+    font-size: 0.9rem !important;
+}
+
+.nav_search_result_preview_panel.markdown-body h3 {
+    font-size: 0.85rem !important;
+}
+
+.nav_search_result_preview_panel.markdown-body p,
+.nav_search_result_preview_panel.markdown-body li {
+    font-size: 0.72rem !important;
+    margin-bottom: 4px !important;
+}
+
+.nav_search_result_preview_panel.markdown-body img {
+    display: none;
+}
+
+.nav_search_result_preview_title {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: var(--color-fg-default, #1a1a1a);
+    border-bottom: 1px solid var(--color-border-default, #eee);
+    padding-bottom: 8px;
+}
+
 .nav_search_result_title {
-    color: var(--color-fg-default, inherit);
+    color: var(--color-fg-default, #1a1a1a);
+    font-weight: 500;
+}
+
+.nav_search_result_preview {
+    margin: 4px 0 0 0;
+    font-size: 0.78rem;
+    color: var(--color-fg-muted, #555);
+    line-height: 1.4;
+    white-space: normal;
+}
+
+.nav_search_highlight {
+    background-color: #ffe066;
+    color: #1a1a1a;
+    border-radius: 2px;
+    padding: 0 1px;
+    font-style: normal;
 }
 
 .nav_search_no_result {
