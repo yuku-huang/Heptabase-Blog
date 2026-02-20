@@ -2,7 +2,6 @@
     "name": "heptabase_blog",
     "version": "1.0.0",
     "private": true,
-    "proxy": "http://0.0.0.0:3000",
     "dependencies": {
         "@ant-design/icons": "^4.8.0",
         "@nextui-org/navbar": "^2.0.27",
@@ -45,6 +44,7 @@
         "web-vitals": "^2.1.4"
     },
     "scripts": {
+        "fetch-data": "node fetchData.js",
         "start": "react-scripts start",
         "build": "node -e \"process.env.CI='false'; require('react-scripts/scripts/build')\"",
         "test": "react-scripts test",

@@ -486,22 +486,22 @@ const heptaContentTomd = (content_list, parent_node, parent_card_id) => {
 
             case 'card':
                 new_node = document.createElement('span')
-                new_node.innerHTML = content_list[i]['attrs']['cardTitle']
-                if (content_list[i]['attrs']['cardTitle'] === undefined) {
-                    // 找不到卡片标题，根据卡片 ID 匹配标题
+                if (content_list[i]['attrs']['cardTitle'] !== undefined && content_list[i]['attrs']['cardTitle'] !== null) {
+                    // cardTitle 有值才設定，避免 undefined 被轉成字串 "undefined"
+                    new_node.innerHTML = content_list[i]['attrs']['cardTitle']
+                } else {
+                    // cardTitle 為 undefined/null，嘗試用 cardId 在白版資料中找標題
                     const card = getCardName(content_list[i]['attrs']['cardId'])
-
                     if (card) {
                         new_node.innerHTML = card.title
                     }
-
+                    // 若仍找不到，innerHTML 維持空字串（不顯示 "undefined"）
                 }
 
                 let bingo = false
 
                 if (content_list[i]['attrs']['cardTitle'] === 'Invalid card') {
-                    // 未知卡片
-                    // 在数据中先找一下
+                    // 未知卡片（不在白版上），先在全域資料中搜尋標題
                     let heptabase_blog_data = heptabaseData
 
                     for (let k = 0; k < heptabase_blog_data.data.cards.length; k++) {
@@ -512,16 +512,6 @@ const heptaContentTomd = (content_list, parent_node, parent_card_id) => {
                         }
                     }
 
-                    // if (bingo === true) {
-                    //     new_node.classList.add('my_link')
-                    //     new_node.classList.add('article_link')
-                    //     new_node.setAttribute('path', '/post/' + content_list[i]['attrs']['cardId'])
-                    //     new_node.setAttribute('parent_note_id', parent_card_id)
-                    // } else {
-                    //     new_node.classList.add('unknown_card')
-                    // }
-
-
                 }
 
                 if (bingo === true || content_list[i]['attrs']['cardTitle'] !== 'Invalid card') {
@@ -530,7 +520,9 @@ const heptaContentTomd = (content_list, parent_node, parent_card_id) => {
                     new_node.setAttribute('path', '/post/' + content_list[i]['attrs']['cardId'])
                     new_node.setAttribute('parent_note_id', parent_card_id)
                 } else {
-                    new_node.classList.add('unknown_card')
+                    // 真正找不到的卡片：顯示純文字（無超連結），清除 'Invalid card' 字樣
+                    new_node.innerHTML = ''
+                    new_node.classList.add('unknown_card_plain')
                 }
 
 
@@ -869,6 +861,12 @@ const heptaContentTomd = (content_list, parent_node, parent_card_id) => {
 
             case 'math_inline':
                 new_node = document.createElement('span')
+                break
+
+            case 'date':
+                new_node = document.createElement('time')
+                new_node.innerText = content_list[i]['attrs']['date']
+                new_node.setAttribute('style', 'font-size: 0.85em; opacity: 0.65; margin: 0 2px;')
                 break
 
             default:

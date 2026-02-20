@@ -40,6 +40,7 @@ function Post(props) {
     const [cardList, setCardList] = useState([]);
     const [activeNote, setActiveNote] = useState('null');
     const [showChatWindow, setShowChatWindow] = useState(false);
+    const [allCardsState, setAllCardsState] = useState([]);
 
     let { param1 } = useParams();
     let location = useLocation();
@@ -92,6 +93,8 @@ function Post(props) {
 
             // 将数据保存到全局变量中
             HEPTABASE_DATA = heptabase_blog_data
+            // 更新搜尋用的 state
+            setAllCardsState(heptabase_blog_data.cards || [])
             // 默认获取名为 about 的卡片作为首页，若无则获取配置中首个卡片作为首页
             HOME_DATA = res['pages']['about'] || res['pages']['firstPage']
             // 渲染 URL、数据
@@ -756,7 +759,7 @@ function Post(props) {
             let note_style = {
                 left: 0
             }
-            card_list_dom.push(<Container style={note_style} key={card['card']['id']} handleHashChange={handleHashChange} handleLinkClick={handleLinkClick} card={card} />)
+            card_list_dom.push(<Container style={note_style} key={card['card']['id']} handleHashChange={handleHashChange} handleLinkClick={handleLinkClick} handleCardCloseClick={handleCardCloseClick} card={card} isLatest={false} />)
         } else {
             for (let i = 0; i < cardList.length; i++) {
                 let card = cardList[i]
@@ -769,7 +772,7 @@ function Post(props) {
                     flex: '0 0 auto'
                 }
 
-                let note = <Container style={note_style} key={card['card']['id']} handleHashChange={handleHashChange} handleLinkClick={handleLinkClick} card={card} />
+                let note = <Container style={note_style} key={card['card']['id']} handleHashChange={handleHashChange} handleLinkClick={handleLinkClick} handleCardCloseClick={handleCardCloseClick} card={card} isLatest={i > 0 && i === cardList.length - 1} />
                 card_list_dom.push(note)
             }
         }
@@ -792,7 +795,7 @@ function Post(props) {
 
             // <NextUIProvider>
             <div className='notes_box'>
-                <Nav handleShowChatWindow={handleShowChatWindow} discord={windowWidth > minWidth} />
+                <Nav handleShowChatWindow={handleShowChatWindow} discord={windowWidth > minWidth} allCards={allCardsState} navigate={navigate} />
 
 
                 <div className='flex flex-row' style={{

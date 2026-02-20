@@ -251,6 +251,16 @@ function Container(props) {
 
         return <div style={props['style']} ref={post} className='markdown-body container' note_id={props['card']['card']['id']}>
 
+            {props.isLatest && (
+                <button
+                    className='card_close_btn'
+                    onClick={() => props.handleCardCloseClick(props['card']['card']['id'])}
+                    title='關閉卡片'
+                >
+                    ✕
+                </button>
+            )}
+
             <article className='note_article' dangerouslySetInnerHTML={{ __html: props['card']['card']['content'].innerHTML }}></article>
             <div className='article_bottom'>
                 <div style={{ flex: 1 }}>
