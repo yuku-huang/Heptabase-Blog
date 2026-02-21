@@ -280,8 +280,19 @@ const getHeptabaseDataFromServer = async () => {
 /**
  * 直接呼叫 Heptabase 公開 API，取得即時資料
  * 不再依賴靜態 data.json
+ * 部署到 Vercel 時改為呼叫同源 /api/heptabase 代理，避免 CORS 阻擋。
  */
 const fetchFromHeptabasePublicAPI = async () => {
+    const isProduction = process.env.NODE_ENV === 'production';
+    if (isProduction) {
+        const base = typeof window !== 'undefined' ? window.location.origin : '';
+        const res = await fetch(`${base}/api/heptabase`);
+        if (!res.ok) {
+            throw new Error(`/api/heptabase failed: ${res.status}`);
+        }
+        return res.json();
+    }
+
     const uuid = CONFIG.whiteboard_uuid;
     if (!uuid) {
         throw new Error('CONFIG.whiteboard_uuid is not set');
