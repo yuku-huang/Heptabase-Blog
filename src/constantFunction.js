@@ -692,6 +692,12 @@ const heptaContentTomd = (content_list, parent_node, parent_card_id, allCards = 
                                 new_node.innerText = content_list[i]['text']
                                 break
 
+                            // underline
+                            case 'underline':
+                                new_node = document.createElement('u')
+                                new_node.innerText = content_list[i]['text']
+                                break
+
                             case 'color':
 
                                 new_node = document.createElement('span')
