@@ -1,22 +1,18 @@
 import CONFIG from "./config";
 import { Modal } from 'antd';
-import heptabaseData from './resources/data.json';
 
 const { confirm } = Modal;
 
 const getWhiteboardId = () => CONFIG.whiteboard_id || '';
 
-const getCardName = (cardId) => {
-
-    const cards = heptabaseData.data.cards
+// cards 參數由呼叫方傳入（移除全域 heptabaseData 依賴）
+const getCardName = (cardId, cards = []) => {
     for (let i = 0; i < cards.length; i++) {
         if (cards[i]['id'] === cardId) {
             return cards[i]
         }
     }
-
     return null
-
 }
 
 // fetch 错误时的反馈弹窗
@@ -281,16 +277,93 @@ const getHeptabaseDataFromServer = async () => {
     }
 };
 
-// 获取 Heptabase 的笔记数据
-const getHeptabaseData = async () => {
-    console.log('getHeptabaseData');
-
-    if ((heptabaseData?.code === 0 || heptabaseData?.code === 200 || heptabaseData?.code === undefined) && Array.isArray(heptabaseData?.data?.cards)) {
-        return handleHeptabaseData(heptabaseData)
+/**
+ * 直接呼叫 Heptabase 公開 API，取得即時資料
+ * 不再依賴靜態 data.json
+ */
+const fetchFromHeptabasePublicAPI = async () => {
+    const uuid = CONFIG.whiteboard_uuid;
+    if (!uuid) {
+        throw new Error('CONFIG.whiteboard_uuid is not set');
     }
 
-    console.error('Invalid local data.json format, fallback to API.')
-    return await getHeptabaseDataFromServer()
+    const BASE_HEADERS = {
+        'Accept': 'application/json, text/plain, */*',
+        'Content-Type': 'application/json',
+        'heptabase-db-schema-version': '126'
+    };
+
+    // Step 1: 取得 whiteboard 結構（所有 cardInstance IDs）
+    const structureRes = await fetch(
+        'https://api.heptabase.com/v1/collaboration/getAllDataForWhiteboard',
+        {
+            method: 'POST',
+            headers: BASE_HEADERS,
+            body: JSON.stringify({
+                whiteboardId: uuid,
+                doFetchDataForWhiteboardQuickRender: true,
+                permissionCheckMode: 'public'
+            })
+        }
+    );
+    if (!structureRes.ok) {
+        throw new Error(`getAllDataForWhiteboard failed: ${structureRes.status}`);
+    }
+    const structureData = await structureRes.json();
+    const cardInstances = structureData?.accessibleObjectMap?.cardInstance || {};
+
+    // 提取所有唯一的 card ID
+    const cardIds = [...new Set(
+        Object.values(cardInstances)
+            .map(inst => inst.cardId)
+            .filter(Boolean)
+    )];
+    if (cardIds.length === 0) {
+        return { code: 200, data: { cards: [] } };
+    }
+
+    // Step 2: 批量取得所有 card 完整內容
+    const cardsRes = await fetch(
+        'https://api.heptabase.com/v1/getObjectsMapV2',
+        {
+            method: 'POST',
+            headers: BASE_HEADERS,
+            body: JSON.stringify({
+                objects: cardIds.map(id => ({ objectType: 'card', objectId: id })),
+                permissionCheckMode: 'public'
+            })
+        }
+    );
+    if (!cardsRes.ok) {
+        throw new Error(`getObjectsMapV2 failed: ${cardsRes.status}`);
+    }
+    const cardsData = await cardsRes.json();
+    const cardsMap = cardsData?.objectsMap?.card || {};
+
+    // Step 3: Adapter — 轉換成現有 data.cards[] 格式
+    // 現有格式：{ id, title, content (JSON string), createdTime, lastEditedTime, createdBy }
+    const cards = Object.values(cardsMap).map(card => ({
+        id: card.id,
+        title: card.title || '',
+        content: card.content || '{}',
+        createdTime: card.createdTime,
+        lastEditedTime: card.lastEditedTime,
+        createdBy: card.createdBy,
+    }));
+
+    return { code: 200, data: { cards } };
+};
+
+// 获取 Heptabase 的笔记数据
+const getHeptabaseData = async () => {
+    console.log('getHeptabaseData — 直接呼叫 Heptabase API');
+    try {
+        const data = await fetchFromHeptabasePublicAPI();
+        return handleHeptabaseData(data);
+    } catch (err) {
+        console.error('fetchFromHeptabasePublicAPI failed, falling back to legacy API:', err);
+        return await getHeptabaseDataFromServer();
+    }
 
     // 获取本地数据
     let heptabaseDataFromLocal = JSON.parse(localStorage.getItem("heptabase_blog_data"))
@@ -445,7 +518,7 @@ const handleHeptabaseData = (data) => {
  * @param {Object} Hpeta_card_data Hepta 卡片数据
  * @returns 返回拼接后的 DOM 元素
  */
-const heptaToMD = (Hpeta_card_data) => {
+const heptaToMD = (Hpeta_card_data, allCards = []) => {
 
     // 如果对象已经是 DOM 则直接返回
     if (Hpeta_card_data['content'] instanceof HTMLElement) {
@@ -454,7 +527,7 @@ const heptaToMD = (Hpeta_card_data) => {
 
     let parent_card_id = Hpeta_card_data['id']
     let box = document.createElement('div')
-    box = heptaContentTomd(JSON.parse(Hpeta_card_data['content'])['content'], box, parent_card_id)
+    box = heptaContentTomd(JSON.parse(Hpeta_card_data['content'])['content'], box, parent_card_id, allCards)
     return box
 
 
@@ -467,7 +540,7 @@ const heptaToMD = (Hpeta_card_data) => {
  * @param {string} parent_card_id  当前卡片的 ID
  * @returns 返回拼接后的 md 字符串                    
  */
-const heptaContentTomd = (content_list, parent_node, parent_card_id) => {
+const heptaContentTomd = (content_list, parent_node, parent_card_id, allCards = []) => {
 
     let new_node
     let number_list_index = 1
@@ -490,8 +563,8 @@ const heptaContentTomd = (content_list, parent_node, parent_card_id) => {
                     // cardTitle 有值才設定，避免 undefined 被轉成字串 "undefined"
                     new_node.innerHTML = content_list[i]['attrs']['cardTitle']
                 } else {
-                    // cardTitle 為 undefined/null，嘗試用 cardId 在白版資料中找標題
-                    const card = getCardName(content_list[i]['attrs']['cardId'])
+                    // cardTitle 為 undefined/null，嘗試用 cardId 在白板資料中找標題
+                    const card = getCardName(content_list[i]['attrs']['cardId'], allCards)
                     if (card) {
                         new_node.innerHTML = card.title
                     }
@@ -501,17 +574,14 @@ const heptaContentTomd = (content_list, parent_node, parent_card_id) => {
                 let bingo = false
 
                 if (content_list[i]['attrs']['cardTitle'] === 'Invalid card') {
-                    // 未知卡片（不在白版上），先在全域資料中搜尋標題
-                    let heptabase_blog_data = heptabaseData
-
-                    for (let k = 0; k < heptabase_blog_data.data.cards.length; k++) {
-                        if (heptabase_blog_data.data.cards[k]['id'] === content_list[i]['attrs']['cardId']) {
-                            new_node.innerHTML = heptabase_blog_data.data.cards[k]['title']
+                    // 未知卡片（不在白板上），先在全域資料中搜尋標題
+                    for (let k = 0; k < allCards.length; k++) {
+                        if (allCards[k]['id'] === content_list[i]['attrs']['cardId']) {
+                            new_node.innerHTML = allCards[k]['title']
                             bingo = true
                             break
                         }
                     }
-
                 }
 
                 if (bingo === true || content_list[i]['attrs']['cardTitle'] !== 'Invalid card') {
@@ -937,7 +1007,7 @@ const heptaContentTomd = (content_list, parent_node, parent_card_id) => {
         // 如果还有子 content
         if ('content' in content_list[i]) {
 
-            heptaContentTomd(content_list[i]['content'], new_node, parent_card_id)
+            heptaContentTomd(content_list[i]['content'], new_node, parent_card_id, allCards)
 
         }
 

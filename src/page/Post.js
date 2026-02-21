@@ -132,7 +132,7 @@ function Post(props) {
                 new_card = getClearCard(heptabase_blog_data.cards[i], heptabase_blog_data.cards)
                 // heptabase_blog_data.cards[i] = new_card['card']
 
-                new_card['card']['content'] = heptaToMD(new_card['card'])
+                new_card['card']['content'] = heptaToMD(new_card['card'], HEPTABASE_DATA?.cards || [])
 
                 return new_card
 
