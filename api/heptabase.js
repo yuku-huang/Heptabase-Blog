@@ -3,12 +3,14 @@
  * 前端在 production 改打 /api/heptabase（同源），由此 function 代為請求 api.heptabase.com。
  */
 
+const CONFIG = require('../src/config').default || require('../src/config');
+
 const DEFAULT_WHITEBOARD_UUID = '946f23a3-75ef-48e3-8e7b-35c2376f2559';
 
 const BASE_HEADERS = {
     'Accept': 'application/json, text/plain, */*',
     'Content-Type': 'application/json',
-    'heptabase-db-schema-version': '126'
+    'heptabase-db-schema-version': CONFIG.heptabase_db_schema_version || '127'
 };
 
 function corsHeaders(origin) {

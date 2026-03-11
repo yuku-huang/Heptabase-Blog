@@ -301,7 +301,7 @@ const fetchFromHeptabasePublicAPI = async () => {
     const BASE_HEADERS = {
         'Accept': 'application/json, text/plain, */*',
         'Content-Type': 'application/json',
-        'heptabase-db-schema-version': '126'
+        'heptabase-db-schema-version': CONFIG.heptabase_db_schema_version || '127'
     };
 
     // Step 1: 取得 whiteboard 結構（所有 cardInstance IDs）
