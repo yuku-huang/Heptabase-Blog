@@ -6,7 +6,7 @@ const CONFIG = {
     'whiteboard_uuid': '946f23a3-75ef-48e3-8e7b-35c2376f2559',
     // Heptabase DB schema version（Heptabase 更新後可能需要同步更新此值）
     // 查找方式：打開公開白板 → DevTools → Network → 找 api.heptabase.com 請求的 header
-    'heptabase_db_schema_version': '127',
+    'heptabase_db_schema_version': '128',
     'title': '羽空的卡片盒',
     'pages': {
         '部落格': '75b7d7e0-faf3-44f9-96ec-518a0001ccd7',
